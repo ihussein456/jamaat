@@ -1,0 +1,106 @@
+{
+  "mosques": [
+    {
+      "id": "1",
+      "name": "East London Mosque",
+      "address": "82-92 Whitechapel Rd, London E1 1JQ",
+      "latitude": 51.5186,
+      "longitude": -0.0638,
+      "prayerTimes": {
+        "fajr": "05:45",
+        "dhuhr": "12:15",
+        "asr": "14:30",
+        "maghrib": "17:45",
+        "isha": "19:15"
+      },
+      "capacity": 7000,
+      "facilities": ["Parking", "Wudu area", "Women's section"]
+    },
+    {
+      "id": "2",
+      "name": "Regent's Park Mosque",
+      "address": "146 Park Rd, London NW8 7RG",
+      "latitude": 51.5264,
+      "longitude": -0.1674,
+      "prayerTimes": {
+        "fajr": "05:45",
+        "dhuhr": "12:15",
+        "asr": "14:30",
+        "maghrib": "17:45",
+        "isha": "19:15"
+      },
+      "capacity": 5000,
+      "facilities": ["Library", "Bookshop", "Parking", "Women's section"]
+    },
+    {
+      "id": "3",
+      "name": "Brick Lane Jamme Masjid",
+      "address": "59 Brick Ln, London E1 6QL",
+      "latitude": 51.5199,
+      "longitude": -0.0719,
+      "prayerTimes": {
+        "fajr": "05:45",
+        "dhuhr": "12:15",
+        "asr": "14:30",
+        "maghrib": "17:45",
+        "isha": "19:15"
+      },
+      "capacity": 3000,
+      "facilities": ["Historic building", "Wudu area"]
+    },
+    {
+      "id": "4",
+      "name": "Finsbury Park Mosque",
+      "address": "7-11 St Thomas's Rd, London N4 2QJ",
+      "latitude": 51.5638,
+      "longitude": -0.1063,
+      "prayerTimes": {
+        "fajr": "05:45",
+        "dhuhr": "12:15",
+        "asr": "14:30",
+        "maghrib": "17:45",
+        "isha": "19:15"
+      },
+      "capacity": 1800,
+      "facilities": ["Parking", "Women's section", "Youth programs"]
+    },
+    {
+      "id": "5",
+      "name": "Baitul Futuh Mosque",
+      "address": "181 London Rd, Morden SM4 5PT",
+      "latitude": 51.3924,
+      "longitude": -0.195,
+      "prayerTimes": {
+        "fajr": "05:45",
+        "dhuhr": "12:15",
+        "asr": "14:30",
+        "maghrib": "17:45",
+        "isha": "19:15"
+      },
+      "capacity": 10000,
+      "facilities": [
+        "Largest mosque in Western Europe",
+        "Library",
+        "Parking",
+        "Women's section",
+        "Conference hall"
+      ]
+    },
+    {
+      "id": "6",
+      "name": "Lewisham Islamic Centre",
+      "address": "365 Lewisham High St, London SE13 6NZ",
+      "latitude": 51.4617,
+      "longitude": -0.0127,
+      "prayerTimes": {
+        "fajr": "05:45",
+        "dhuhr": "12:15",
+        "asr": "14:30",
+        "maghrib": "17:45",
+        "isha": "19:15"
+      },
+      "capacity": 2500,
+      "facilities": ["Islamic school", "Women's section", "Community center"]
+    }
+  ]
+}
