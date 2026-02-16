@@ -1,106 +1,4744 @@
 {
   "mosques": [
     {
-      "id": "1",
-      "name": "East London Mosque",
-      "address": "82-92 Whitechapel Rd, London E1 1JQ",
-      "latitude": 51.5186,
-      "longitude": -0.0638,
+      "id": "230",
+      "name": "ASHA ISLAMIC CENTRE",
+      "address": "",
+      "latitude": 51.5520354,
+      "longitude": 0.0466803,
+      "facilities": [],
       "prayerTimes": {
         "fajr": "05:45",
         "dhuhr": "12:15",
         "asr": "14:30",
         "maghrib": "17:45",
         "isha": "19:15"
-      },
-      "capacity": 7000,
-      "facilities": ["Parking", "Wudu area", "Women's section"]
+      }
     },
     {
-      "id": "2",
-      "name": "Regent's Park Mosque",
-      "address": "146 Park Rd, London NW8 7RG",
-      "latitude": 51.5264,
-      "longitude": -0.1674,
+      "id": "105",
+      "name": "Aberfeldy Islamic Cultural Centre & Mosque",
+      "address": "",
+      "latitude": 51.5133329,
+      "longitude": -0.0053089,
+      "facilities": [],
       "prayerTimes": {
         "fajr": "05:45",
         "dhuhr": "12:15",
         "asr": "14:30",
         "maghrib": "17:45",
         "isha": "19:15"
-      },
-      "capacity": 5000,
-      "facilities": ["Library", "Bookshop", "Parking", "Women's section"]
+      }
     },
     {
-      "id": "3",
-      "name": "Brick Lane Jamme Masjid",
-      "address": "59 Brick Ln, London E1 6QL",
-      "latitude": 51.5199,
-      "longitude": -0.0719,
+      "id": "366",
+      "name": "Abubakr Mosque Southall",
+      "address": "",
+      "latitude": 51.5121345,
+      "longitude": -0.3838241,
+      "facilities": ["Women's section"],
       "prayerTimes": {
         "fajr": "05:45",
         "dhuhr": "12:15",
         "asr": "14:30",
         "maghrib": "17:45",
         "isha": "19:15"
-      },
-      "capacity": 3000,
-      "facilities": ["Historic building", "Wudu area"]
+      }
     },
     {
-      "id": "4",
-      "name": "Finsbury Park Mosque",
-      "address": "7-11 St Thomas's Rd, London N4 2QJ",
-      "latitude": 51.5638,
-      "longitude": -0.1063,
+      "id": "220",
+      "name": "Acton Mosque",
+      "address": "",
+      "latitude": 51.5066207,
+      "longitude": -0.2700793,
+      "facilities": [],
       "prayerTimes": {
         "fajr": "05:45",
         "dhuhr": "12:15",
         "asr": "14:30",
         "maghrib": "17:45",
         "isha": "19:15"
-      },
-      "capacity": 1800,
-      "facilities": ["Parking", "Women's section", "Youth programs"]
+      }
     },
     {
-      "id": "5",
+      "id": "213",
+      "name": "Afghan Islamic Cultural Centre",
+      "address": "",
+      "latitude": 51.5482227,
+      "longitude": -0.2479089,
+      "facilities": [],
+      "prayerTimes": {
+        "fajr": "05:45",
+        "dhuhr": "12:15",
+        "asr": "14:30",
+        "maghrib": "17:45",
+        "isha": "19:15"
+      }
+    },
+    {
+      "id": "298",
+      "name": "Akanjee Foundation Islamic Center",
+      "address": "",
+      "latitude": 51.541381,
+      "longitude": 0.0845375,
+      "facilities": [],
+      "prayerTimes": {
+        "fajr": "05:45",
+        "dhuhr": "12:15",
+        "asr": "14:30",
+        "maghrib": "17:45",
+        "isha": "19:15"
+      }
+    },
+    {
+      "id": "101",
+      "name": "Al Aqsa Docklands",
+      "address": "",
+      "latitude": 51.4963629,
+      "longitude": -0.0124475,
+      "facilities": ["Parking"],
+      "prayerTimes": {
+        "fajr": "05:45",
+        "dhuhr": "12:15",
+        "asr": "14:30",
+        "maghrib": "17:45",
+        "isha": "19:15"
+      }
+    },
+    {
+      "id": "303",
+      "name": "Al Bayan Welfare Centre",
+      "address": "",
+      "latitude": 51.559074,
+      "longitude": 0.0850943,
+      "facilities": ["Women's section"],
+      "prayerTimes": {
+        "fajr": "05:45",
+        "dhuhr": "12:15",
+        "asr": "14:30",
+        "maghrib": "17:45",
+        "isha": "19:15"
+      }
+    },
+    {
+      "id": "391",
+      "name": "Al Falah Islamic Education Centre",
+      "address": "",
+      "latitude": 51.5127051,
+      "longitude": -0.4753381,
+      "facilities": [],
+      "prayerTimes": {
+        "fajr": "05:45",
+        "dhuhr": "12:15",
+        "asr": "14:30",
+        "maghrib": "17:45",
+        "isha": "19:15"
+      }
+    },
+    {
+      "id": "400",
+      "name": "Al Madina Mosque Barking",
+      "address": "",
+      "latitude": 51.5442096,
+      "longitude": 0.0773884,
+      "facilities": [],
+      "prayerTimes": {
+        "fajr": "05:45",
+        "dhuhr": "12:15",
+        "asr": "14:30",
+        "maghrib": "17:45",
+        "isha": "19:15"
+      }
+    },
+    {
+      "id": "57",
+      "name": "Al Manaar | The Muslim Cultural Heritage Centre",
+      "address": "",
+      "latitude": 51.5214649,
+      "longitude": -0.2037567,
+      "facilities": ["Women's section"],
+      "prayerTimes": {
+        "fajr": "05:45",
+        "dhuhr": "12:15",
+        "asr": "14:30",
+        "maghrib": "17:45",
+        "isha": "19:15"
+      }
+    },
+    {
+      "id": "234",
+      "name": "Al Rahma Centre",
+      "address": "",
+      "latitude": 51.593962,
+      "longitude": -0.25202,
+      "facilities": [],
+      "prayerTimes": {
+        "fajr": "05:45",
+        "dhuhr": "12:15",
+        "asr": "14:30",
+        "maghrib": "17:45",
+        "isha": "19:15"
+      }
+    },
+    {
+      "id": "15",
+      "name": "Al Rahman Mosque and Community Centre",
+      "address": "",
+      "latitude": 51.5351295,
+      "longitude": -0.1350292,
+      "facilities": ["Women's section", "Jummah"],
+      "prayerTimes": {
+        "fajr": "05:45",
+        "dhuhr": "12:15",
+        "asr": "14:30",
+        "maghrib": "17:45",
+        "isha": "19:15"
+      }
+    },
+    {
+      "id": "225",
+      "name": "Al Salaam Islamic Centre مسجد‎",
+      "address": "",
+      "latitude": 51.5331233,
+      "longitude": -0.2749358,
+      "facilities": [],
+      "prayerTimes": {
+        "fajr": "05:45",
+        "dhuhr": "12:15",
+        "asr": "14:30",
+        "maghrib": "17:45",
+        "isha": "19:15"
+      }
+    },
+    {
+      "id": "279",
+      "name": "Al-Ansar Islamic Education centre",
+      "address": "",
+      "latitude": 51.566624,
+      "longitude": 0.109242,
+      "facilities": ["Women's section"],
+      "prayerTimes": {
+        "fajr": "05:45",
+        "dhuhr": "12:15",
+        "asr": "14:30",
+        "maghrib": "17:45",
+        "isha": "19:15"
+      }
+    },
+    {
+      "id": "345",
+      "name": "Al-Emaan Centre",
+      "address": "",
+      "latitude": 51.3674899,
+      "longitude": 0.0380301,
+      "facilities": ["Women's section"],
+      "prayerTimes": {
+        "fajr": "05:45",
+        "dhuhr": "12:15",
+        "asr": "14:30",
+        "maghrib": "17:45",
+        "isha": "19:15"
+      }
+    },
+    {
+      "id": "344",
+      "name": "Al-Fatihah Mosque & Islamic Centre",
+      "address": "",
+      "latitude": 51.3663548,
+      "longitude": -0.0673134,
+      "facilities": [],
+      "prayerTimes": {
+        "fajr": "05:45",
+        "dhuhr": "12:15",
+        "asr": "14:30",
+        "maghrib": "17:45",
+        "isha": "19:15"
+      }
+    },
+    {
+      "id": "326",
+      "name": "Al-Muzzammil Masjid & Community Centre (Gatton Road Mosque)",
+      "address": "",
+      "latitude": 51.4302763,
+      "longitude": -0.1676096,
+      "facilities": ["Women's section"],
+      "prayerTimes": {
+        "fajr": "05:45",
+        "dhuhr": "12:15",
+        "asr": "14:30",
+        "maghrib": "17:45",
+        "isha": "19:15"
+      }
+    },
+    {
+      "id": "46",
+      "name": "Al-Nagashi Mosque & Centre (EMCA)",
+      "address": "",
+      "latitude": 51.4778123,
+      "longitude": -0.1293351,
+      "facilities": ["Women's section"],
+      "prayerTimes": {
+        "fajr": "05:45",
+        "dhuhr": "12:15",
+        "asr": "14:30",
+        "maghrib": "17:45",
+        "isha": "19:15"
+      }
+    },
+    {
+      "id": "41",
+      "name": "Al-Nehar Mosque & Education Centre",
+      "address": "",
+      "latitude": 51.5326935,
+      "longitude": -0.1195728,
+      "facilities": ["Women's section", "Jummah"],
+      "prayerTimes": {
+        "fajr": "05:45",
+        "dhuhr": "12:15",
+        "asr": "14:30",
+        "maghrib": "17:45",
+        "isha": "19:15"
+      }
+    },
+    {
+      "id": "182",
+      "name": "Albirr Foundation",
+      "address": "",
+      "latitude": 51.5634391,
+      "longitude": -0.0169783,
+      "facilities": [],
+      "prayerTimes": {
+        "fajr": "05:45",
+        "dhuhr": "12:15",
+        "asr": "14:30",
+        "maghrib": "17:45",
+        "isha": "19:15"
+      }
+    },
+    {
+      "id": "349",
+      "name": "Alhidaya Croydon",
+      "address": "",
+      "latitude": 51.3934566,
+      "longitude": -0.1131281,
+      "facilities": [],
+      "prayerTimes": {
+        "fajr": "05:45",
+        "dhuhr": "12:15",
+        "asr": "14:30",
+        "maghrib": "17:45",
+        "isha": "19:15"
+      }
+    },
+    {
+      "id": "300",
+      "name": "Alnoor Cultural & Education Trust",
+      "address": "",
+      "latitude": 51.5308012,
+      "longitude": 0.0813997,
+      "facilities": ["Women's section"],
+      "prayerTimes": {
+        "fajr": "05:45",
+        "dhuhr": "12:15",
+        "asr": "14:30",
+        "maghrib": "17:45",
+        "isha": "19:15"
+      }
+    },
+    {
+      "id": "93",
+      "name": "Alrisaalah Mosque Islington Islamic Centre",
+      "address": "",
+      "latitude": 51.5575,
+      "longitude": -0.1202778,
+      "facilities": [],
+      "prayerTimes": {
+        "fajr": "05:45",
+        "dhuhr": "12:15",
+        "asr": "14:30",
+        "maghrib": "17:45",
+        "isha": "19:15"
+      }
+    },
+    {
+      "id": "223",
+      "name": "An Noor Cultural & Community Centre (ACCC Trust)",
+      "address": "",
+      "latitude": 51.505652,
+      "longitude": -0.270461,
+      "facilities": [],
+      "prayerTimes": {
+        "fajr": "05:45",
+        "dhuhr": "12:15",
+        "asr": "14:30",
+        "maghrib": "17:45",
+        "isha": "19:15"
+      }
+    },
+    {
+      "id": "184",
+      "name": "An-Noor Masjid",
+      "address": "",
+      "latitude": 51.5638581,
+      "longitude": -0.012886,
+      "facilities": [],
+      "prayerTimes": {
+        "fajr": "05:45",
+        "dhuhr": "12:15",
+        "asr": "14:30",
+        "maghrib": "17:45",
+        "isha": "19:15"
+      }
+    },
+    {
+      "id": "426",
+      "name": "Ashaadibi Centre",
+      "address": "",
+      "latitude": 51.5139798,
+      "longitude": -0.0618076,
+      "facilities": [],
+      "prayerTimes": {
+        "fajr": "05:45",
+        "dhuhr": "12:15",
+        "asr": "14:30",
+        "maghrib": "17:45",
+        "isha": "19:15"
+      }
+    },
+    {
+      "id": "374",
+      "name": "Ashford & Staines Community Centre",
+      "address": "",
+      "latitude": 51.4468345,
+      "longitude": -0.45833,
+      "facilities": [],
+      "prayerTimes": {
+        "fajr": "05:45",
+        "dhuhr": "12:15",
+        "asr": "14:30",
+        "maghrib": "17:45",
+        "isha": "19:15"
+      }
+    },
+    {
+      "id": "111",
+      "name": "Assalatur Rahman Islamic Association United Kingdom",
+      "address": "",
+      "latitude": 51.4845924,
+      "longitude": -0.0555748,
+      "facilities": [],
+      "prayerTimes": {
+        "fajr": "05:45",
+        "dhuhr": "12:15",
+        "asr": "14:30",
+        "maghrib": "17:45",
+        "isha": "19:15"
+      }
+    },
+    {
+      "id": "161",
+      "name": "Assunnah Islamic Centre",
+      "address": "",
+      "latitude": 51.5958397,
+      "longitude": -0.0692546,
+      "facilities": [],
+      "prayerTimes": {
+        "fajr": "05:45",
+        "dhuhr": "12:15",
+        "asr": "14:30",
+        "maghrib": "17:45",
+        "isha": "19:15"
+      }
+    },
+    {
+      "id": "171",
+      "name": "Azhar Academy Mosque & Islamic Centre",
+      "address": "",
+      "latitude": 51.5461649,
+      "longitude": 0.0200747,
+      "facilities": [],
+      "prayerTimes": {
+        "fajr": "05:45",
+        "dhuhr": "12:15",
+        "asr": "14:30",
+        "maghrib": "17:45",
+        "isha": "19:15"
+      }
+    },
+    {
+      "id": "167",
+      "name": "Aziziye Masjid مسجد‎",
+      "address": "",
+      "latitude": 51.5553016,
+      "longitude": -0.075116,
+      "facilities": [],
+      "prayerTimes": {
+        "fajr": "05:45",
+        "dhuhr": "12:15",
+        "asr": "14:30",
+        "maghrib": "17:45",
+        "isha": "19:15"
+      }
+    },
+    {
+      "id": "19",
+      "name": "BBC Community Centre Mosque",
+      "address": "",
+      "latitude": 51.5177884,
+      "longitude": -0.0745399,
+      "facilities": ["Jummah"],
+      "prayerTimes": {
+        "fajr": "05:45",
+        "dhuhr": "12:15",
+        "asr": "14:30",
+        "maghrib": "17:45",
+        "isha": "19:15"
+      }
+    },
+    {
+      "id": "118",
+      "name": "BECA Masjid - Peckham",
+      "address": "",
+      "latitude": 51.4698048,
+      "longitude": -0.0673218,
+      "facilities": [],
+      "prayerTimes": {
+        "fajr": "05:45",
+        "dhuhr": "12:15",
+        "asr": "14:30",
+        "maghrib": "17:45",
+        "isha": "19:15"
+      }
+    },
+    {
+      "id": "92",
+      "name": "Baitul Aman Mosque",
+      "address": "",
+      "latitude": 51.5501137,
+      "longitude": -0.1504972,
+      "facilities": [],
+      "prayerTimes": {
+        "fajr": "05:45",
+        "dhuhr": "12:15",
+        "asr": "14:30",
+        "maghrib": "17:45",
+        "isha": "19:15"
+      }
+    },
+    {
+      "id": "392",
+      "name": "Baitul Aman Mosque",
+      "address": "",
+      "latitude": 51.5234316,
+      "longitude": -0.4661311,
+      "facilities": [],
+      "prayerTimes": {
+        "fajr": "05:45",
+        "dhuhr": "12:15",
+        "asr": "14:30",
+        "maghrib": "17:45",
+        "isha": "19:15"
+      }
+    },
+    {
+      "id": "80",
+      "name": "Baitul Aman Mosque & Cultural Centre",
+      "address": "",
+      "latitude": 51.5248761,
+      "longitude": -0.0529117,
+      "facilities": ["Women's section"],
+      "prayerTimes": {
+        "fajr": "05:45",
+        "dhuhr": "12:15",
+        "asr": "14:30",
+        "maghrib": "17:45",
+        "isha": "19:15"
+      }
+    },
+    {
+      "id": "21",
+      "name": "Baitul Aziz Islamic Cultural Centre",
+      "address": "",
+      "latitude": 51.4975204,
+      "longitude": -0.094398,
+      "facilities": ["Women's section", "Jummah"],
+      "prayerTimes": {
+        "fajr": "05:45",
+        "dhuhr": "12:15",
+        "asr": "14:30",
+        "maghrib": "17:45",
+        "isha": "19:15"
+      }
+    },
+    {
+      "id": "356",
+      "name": "Baitul Ehsan Mosque",
+      "address": "",
+      "latitude": 51.3913532,
+      "longitude": -0.16516,
+      "facilities": [],
+      "prayerTimes": {
+        "fajr": "05:45",
+        "dhuhr": "12:15",
+        "asr": "14:30",
+        "maghrib": "17:45",
+        "isha": "19:15"
+      }
+    },
+    {
+      "id": "331",
       "name": "Baitul Futuh Mosque",
-      "address": "181 London Rd, Morden SM4 5PT",
-      "latitude": 51.3924,
-      "longitude": -0.195,
+      "address": "",
+      "latitude": 51.397381,
+      "longitude": -0.1995974,
+      "facilities": ["Women's section"],
       "prayerTimes": {
         "fajr": "05:45",
         "dhuhr": "12:15",
         "asr": "14:30",
         "maghrib": "17:45",
         "isha": "19:15"
-      },
-      "capacity": 10000,
-      "facilities": [
-        "Largest mosque in Western Europe",
-        "Library",
-        "Parking",
-        "Women's section",
-        "Conference hall"
-      ]
+      }
+    },
+    {
+      "id": "368",
+      "name": "Baitul Mukarram Mosque & Islamic Centre (BMMIC) - Southall Masjid",
+      "address": "",
+      "latitude": 51.5106588,
+      "longitude": -0.3720473,
+      "facilities": [],
+      "prayerTimes": {
+        "fajr": "05:45",
+        "dhuhr": "12:15",
+        "asr": "14:30",
+        "maghrib": "17:45",
+        "isha": "19:15"
+      }
+    },
+    {
+      "id": "373",
+      "name": "Baitul Wahid Mosque (AMA UK)",
+      "address": "",
+      "latitude": 51.4306348,
+      "longitude": -0.4028892,
+      "facilities": [],
+      "prayerTimes": {
+        "fajr": "05:45",
+        "dhuhr": "12:15",
+        "asr": "14:30",
+        "maghrib": "17:45",
+        "isha": "19:15"
+      }
+    },
+    {
+      "id": "136",
+      "name": "Balham Mosque",
+      "address": "",
+      "latitude": 51.4465238,
+      "longitude": -0.1489812,
+      "facilities": ["Jummah"],
+      "prayerTimes": {
+        "fajr": "05:45",
+        "dhuhr": "12:15",
+        "asr": "14:30",
+        "maghrib": "17:45",
+        "isha": "19:15"
+      }
+    },
+    {
+      "id": "117",
+      "name": "Baraka Mosque",
+      "address": "",
+      "latitude": 51.4706877,
+      "longitude": -0.029053,
+      "facilities": [],
+      "prayerTimes": {
+        "fajr": "05:45",
+        "dhuhr": "12:15",
+        "asr": "14:30",
+        "maghrib": "17:45",
+        "isha": "19:15"
+      }
+    },
+    {
+      "id": "240",
+      "name": "Barnet Islamic Centre",
+      "address": "",
+      "latitude": 51.6452658,
+      "longitude": -0.1649656,
+      "facilities": [],
+      "prayerTimes": {
+        "fajr": "05:45",
+        "dhuhr": "12:15",
+        "asr": "14:30",
+        "maghrib": "17:45",
+        "isha": "19:15"
+      }
+    },
+    {
+      "id": "127",
+      "name": "Battersea Mosque",
+      "address": "",
+      "latitude": 51.4676549,
+      "longitude": -0.1702589,
+      "facilities": ["Jummah"],
+      "prayerTimes": {
+        "fajr": "05:45",
+        "dhuhr": "12:15",
+        "asr": "14:30",
+        "maghrib": "17:45",
+        "isha": "19:15"
+      }
+    },
+    {
+      "id": "283",
+      "name": "Becontree Mosque",
+      "address": "",
+      "latitude": 51.561914,
+      "longitude": 0.1237295,
+      "facilities": ["Women's section"],
+      "prayerTimes": {
+        "fajr": "05:45",
+        "dhuhr": "12:15",
+        "asr": "14:30",
+        "maghrib": "17:45",
+        "isha": "19:15"
+      }
+    },
+    {
+      "id": "257",
+      "name": "Bilal Masjid",
+      "address": "",
+      "latitude": 51.5504465,
+      "longitude": -0.3310676,
+      "facilities": [],
+      "prayerTimes": {
+        "fajr": "05:45",
+        "dhuhr": "12:15",
+        "asr": "14:30",
+        "maghrib": "17:45",
+        "isha": "19:15"
+      }
+    },
+    {
+      "id": "414",
+      "name": "Bishops Way Islamic Centre",
+      "address": "",
+      "latitude": 51.5330409,
+      "longitude": -0.054272,
+      "facilities": [],
+      "prayerTimes": {
+        "fajr": "05:45",
+        "dhuhr": "12:15",
+        "asr": "14:30",
+        "maghrib": "17:45",
+        "isha": "19:15"
+      }
+    },
+    {
+      "id": "350",
+      "name": "Bismillah Cultural Centre Afghan Community",
+      "address": "",
+      "latitude": 51.4091981,
+      "longitude": -0.1220251,
+      "facilities": [],
+      "prayerTimes": {
+        "fajr": "05:45",
+        "dhuhr": "12:15",
+        "asr": "14:30",
+        "maghrib": "17:45",
+        "isha": "19:15"
+      }
+    },
+    {
+      "id": "251",
+      "name": "Blackbird Muslim Community Centre",
+      "address": "",
+      "latitude": 51.5647165,
+      "longitude": -0.2626747,
+      "facilities": [],
+      "prayerTimes": {
+        "fajr": "05:45",
+        "dhuhr": "12:15",
+        "asr": "14:30",
+        "maghrib": "17:45",
+        "isha": "19:15"
+      }
+    },
+    {
+      "id": "242",
+      "name": "Borehamwood Islamic Society & Mosque",
+      "address": "",
+      "latitude": 51.658274,
+      "longitude": -0.2654546,
+      "facilities": [],
+      "prayerTimes": {
+        "fajr": "05:45",
+        "dhuhr": "12:15",
+        "asr": "14:30",
+        "maghrib": "17:45",
+        "isha": "19:15"
+      }
+    },
+    {
+      "id": "70",
+      "name": "Bow Common Masjid And Cultural Trust",
+      "address": "",
+      "latitude": 51.521975,
+      "longitude": -0.0191696,
+      "facilities": ["Parking", "Jummah"],
+      "prayerTimes": {
+        "fajr": "05:45",
+        "dhuhr": "12:15",
+        "asr": "14:30",
+        "maghrib": "17:45",
+        "isha": "19:15"
+      }
+    },
+    {
+      "id": "88",
+      "name": "Bow Muslim Community Centre",
+      "address": "",
+      "latitude": 51.5325612,
+      "longitude": -0.0317201,
+      "facilities": ["Jummah"],
+      "prayerTimes": {
+        "fajr": "05:45",
+        "dhuhr": "12:15",
+        "asr": "14:30",
+        "maghrib": "17:45",
+        "isha": "19:15"
+      }
+    },
+    {
+      "id": "416",
+      "name": "Bow Muslim Cultural Centre",
+      "address": "",
+      "latitude": 51.5292494,
+      "longitude": -0.0145561,
+      "facilities": [],
+      "prayerTimes": {
+        "fajr": "05:45",
+        "dhuhr": "12:15",
+        "asr": "14:30",
+        "maghrib": "17:45",
+        "isha": "19:15"
+      }
+    },
+    {
+      "id": "232",
+      "name": "Brentwood Mosque",
+      "address": "",
+      "latitude": 51.6125808,
+      "longitude": 0.2991335,
+      "facilities": [],
+      "prayerTimes": {
+        "fajr": "05:45",
+        "dhuhr": "12:15",
+        "asr": "14:30",
+        "maghrib": "17:45",
+        "isha": "19:15"
+      }
+    },
+    {
+      "id": "18",
+      "name": "Brick Lane Mosque",
+      "address": "",
+      "latitude": 51.5195376,
+      "longitude": -0.0719387,
+      "facilities": ["Women's section", "Wudu area", "Jummah"],
+      "prayerTimes": {
+        "fajr": "05:45",
+        "dhuhr": "12:15",
+        "asr": "14:30",
+        "maghrib": "17:45",
+        "isha": "19:15"
+      }
+    },
+    {
+      "id": "417",
+      "name": "British Estate Masjid & Cultural Centre",
+      "address": "",
+      "latitude": 51.5254676,
+      "longitude": -0.0260227,
+      "facilities": [],
+      "prayerTimes": {
+        "fajr": "05:45",
+        "dhuhr": "12:15",
+        "asr": "14:30",
+        "maghrib": "17:45",
+        "isha": "19:15"
+      }
+    },
+    {
+      "id": "135",
+      "name": "Brixton Hill Islamic Centre",
+      "address": "",
+      "latitude": 51.4487707,
+      "longitude": -0.1241118,
+      "facilities": ["Women's section"],
+      "prayerTimes": {
+        "fajr": "05:45",
+        "dhuhr": "12:15",
+        "asr": "14:30",
+        "maghrib": "17:45",
+        "isha": "19:15"
+      }
+    },
+    {
+      "id": "124",
+      "name": "Brixton Mosque and Islamic Cultural Centre",
+      "address": "",
+      "latitude": 51.4651898,
+      "longitude": -0.112754,
+      "facilities": [],
+      "prayerTimes": {
+        "fajr": "05:45",
+        "dhuhr": "12:15",
+        "asr": "14:30",
+        "maghrib": "17:45",
+        "isha": "19:15"
+      }
+    },
+    {
+      "id": "418",
+      "name": "Bromley by Bow Masjid",
+      "address": "",
+      "latitude": 51.5260642,
+      "longitude": -0.0142724,
+      "facilities": [],
+      "prayerTimes": {
+        "fajr": "05:45",
+        "dhuhr": "12:15",
+        "asr": "14:30",
+        "maghrib": "17:45",
+        "isha": "19:15"
+      }
+    },
+    {
+      "id": "424",
+      "name": "Burdett Estate Mosque",
+      "address": "",
+      "latitude": 51.517074,
+      "longitude": -0.0264914,
+      "facilities": [],
+      "prayerTimes": {
+        "fajr": "05:45",
+        "dhuhr": "12:15",
+        "asr": "14:30",
+        "maghrib": "17:45",
+        "isha": "19:15"
+      }
+    },
+    {
+      "id": "81",
+      "name": "Burhan Uddin Masjid",
+      "address": "",
+      "latitude": 51.526032,
+      "longitude": -0.0662152,
+      "facilities": [],
+      "prayerTimes": {
+        "fajr": "05:45",
+        "dhuhr": "12:15",
+        "asr": "14:30",
+        "maghrib": "17:45",
+        "isha": "19:15"
+      }
+    },
+    {
+      "id": "121",
+      "name": "Camberwell Islamic Centre",
+      "address": "",
+      "latitude": 51.4787407,
+      "longitude": -0.0944259,
+      "facilities": [],
+      "prayerTimes": {
+        "fajr": "05:45",
+        "dhuhr": "12:15",
+        "asr": "14:30",
+        "maghrib": "17:45",
+        "isha": "19:15"
+      }
+    },
+    {
+      "id": "207",
+      "name": "Central Mosque of Brent",
+      "address": "",
+      "latitude": 51.550051,
+      "longitude": -0.224636,
+      "facilities": [],
+      "prayerTimes": {
+        "fajr": "05:45",
+        "dhuhr": "12:15",
+        "asr": "14:30",
+        "maghrib": "17:45",
+        "isha": "19:15"
+      }
+    },
+    {
+      "id": "281",
+      "name": "Chadwell Heath Muslim Centre",
+      "address": "",
+      "latitude": 51.5695742,
+      "longitude": 0.1244739,
+      "facilities": [],
+      "prayerTimes": {
+        "fajr": "05:45",
+        "dhuhr": "12:15",
+        "asr": "14:30",
+        "maghrib": "17:45",
+        "isha": "19:15"
+      }
+    },
+    {
+      "id": "13",
+      "name": "Chalton Street Mosque",
+      "address": "",
+      "latitude": 51.5296589,
+      "longitude": -0.1307197,
+      "facilities": [],
+      "prayerTimes": {
+        "fajr": "05:45",
+        "dhuhr": "12:15",
+        "asr": "14:30",
+        "maghrib": "17:45",
+        "isha": "19:15"
+      }
     },
     {
       "id": "6",
-      "name": "Lewisham Islamic Centre",
-      "address": "365 Lewisham High St, London SE13 6NZ",
-      "latitude": 51.4617,
-      "longitude": -0.0127,
+      "name": "Chelsea Muslim Community Hub",
+      "address": "",
+      "latitude": 51.4811499,
+      "longitude": -0.1786771,
+      "facilities": [],
       "prayerTimes": {
         "fajr": "05:45",
         "dhuhr": "12:15",
         "asr": "14:30",
         "maghrib": "17:45",
         "isha": "19:15"
-      },
-      "capacity": 2500,
-      "facilities": ["Islamic school", "Women's section", "Community center"]
+      }
+    },
+    {
+      "id": "296",
+      "name": "Chigwell Row",
+      "address": "",
+      "latitude": 51.6180531,
+      "longitude": 0.1071607,
+      "facilities": [],
+      "prayerTimes": {
+        "fajr": "05:45",
+        "dhuhr": "12:15",
+        "asr": "14:30",
+        "maghrib": "17:45",
+        "isha": "19:15"
+      }
+    },
+    {
+      "id": "291",
+      "name": "Chingford Islamic Society",
+      "address": "",
+      "latitude": 51.6110378,
+      "longitude": -0.0178293,
+      "facilities": [],
+      "prayerTimes": {
+        "fajr": "05:45",
+        "dhuhr": "12:15",
+        "asr": "14:30",
+        "maghrib": "17:45",
+        "isha": "19:15"
+      }
+    },
+    {
+      "id": "79",
+      "name": "Collingwood Mosque",
+      "address": "",
+      "latitude": 51.5232063,
+      "longitude": -0.0584862,
+      "facilities": ["Women's section", "Jummah"],
+      "prayerTimes": {
+        "fajr": "05:45",
+        "dhuhr": "12:15",
+        "asr": "14:30",
+        "maghrib": "17:45",
+        "isha": "19:15"
+      }
+    },
+    {
+      "id": "419",
+      "name": "Coventry Cross Mosque",
+      "address": "",
+      "latitude": 51.5229343,
+      "longitude": -0.014612,
+      "facilities": [],
+      "prayerTimes": {
+        "fajr": "05:45",
+        "dhuhr": "12:15",
+        "asr": "14:30",
+        "maghrib": "17:45",
+        "isha": "19:15"
+      }
+    },
+    {
+      "id": "265",
+      "name": "Cricklewood Muslim Youth Trust",
+      "address": "",
+      "latitude": 51.5575347,
+      "longitude": -0.2166155,
+      "facilities": [],
+      "prayerTimes": {
+        "fajr": "05:45",
+        "dhuhr": "12:15",
+        "asr": "14:30",
+        "maghrib": "17:45",
+        "isha": "19:15"
+      }
+    },
+    {
+      "id": "340",
+      "name": "Croydon Islamic Community Trust",
+      "address": "",
+      "latitude": 51.379982,
+      "longitude": -0.1048454,
+      "facilities": ["Women's section"],
+      "prayerTimes": {
+        "fajr": "05:45",
+        "dhuhr": "12:15",
+        "asr": "14:30",
+        "maghrib": "17:45",
+        "isha": "19:15"
+      }
+    },
+    {
+      "id": "335",
+      "name": "Croydon Mosque & Islamic Centre",
+      "address": "",
+      "latitude": 51.389534,
+      "longitude": -0.1124819,
+      "facilities": [],
+      "prayerTimes": {
+        "fajr": "05:45",
+        "dhuhr": "12:15",
+        "asr": "14:30",
+        "maghrib": "17:45",
+        "isha": "19:15"
+      }
+    },
+    {
+      "id": "282",
+      "name": "Dagenham Aishah Islamic Centre",
+      "address": "",
+      "latitude": 51.5673558,
+      "longitude": 0.1434911,
+      "facilities": ["Women's section"],
+      "prayerTimes": {
+        "fajr": "05:45",
+        "dhuhr": "12:15",
+        "asr": "14:30",
+        "maghrib": "17:45",
+        "isha": "19:15"
+      }
+    },
+    {
+      "id": "276",
+      "name": "Dagenham Jamme Masjid",
+      "address": "",
+      "latitude": 51.5471393,
+      "longitude": 0.1447225,
+      "facilities": [],
+      "prayerTimes": {
+        "fajr": "05:45",
+        "dhuhr": "12:15",
+        "asr": "14:30",
+        "maghrib": "17:45",
+        "isha": "19:15"
+      }
+    },
+    {
+      "id": "206",
+      "name": "Dar Al Islam Foundation",
+      "address": "",
+      "latitude": 51.5537171,
+      "longitude": -0.2169995,
+      "facilities": [],
+      "prayerTimes": {
+        "fajr": "05:45",
+        "dhuhr": "12:15",
+        "asr": "14:30",
+        "maghrib": "17:45",
+        "isha": "19:15"
+      }
+    },
+    {
+      "id": "212",
+      "name": "Dar al ilm Cultural and learning centre",
+      "address": "",
+      "latitude": 51.549496,
+      "longitude": -0.266396,
+      "facilities": [],
+      "prayerTimes": {
+        "fajr": "05:45",
+        "dhuhr": "12:15",
+        "asr": "14:30",
+        "maghrib": "17:45",
+        "isha": "19:15"
+      }
+    },
+    {
+      "id": "359",
+      "name": "Darul Amaan Mosque",
+      "address": "",
+      "latitude": 51.416403,
+      "longitude": -0.1831787,
+      "facilities": [],
+      "prayerTimes": {
+        "fajr": "05:45",
+        "dhuhr": "12:15",
+        "asr": "14:30",
+        "maghrib": "17:45",
+        "isha": "19:15"
+      }
+    },
+    {
+      "id": "196",
+      "name": "Darul Arqam Muslim Community Centre MOSQUE",
+      "address": "",
+      "latitude": 51.5210722,
+      "longitude": 0.0225417,
+      "facilities": [],
+      "prayerTimes": {
+        "fajr": "05:45",
+        "dhuhr": "12:15",
+        "asr": "14:30",
+        "maghrib": "17:45",
+        "isha": "19:15"
+      }
+    },
+    {
+      "id": "208",
+      "name": "Darul Taclim Cultural Centre and Mosque",
+      "address": "",
+      "latitude": 51.5471778,
+      "longitude": -0.2314867,
+      "facilities": [],
+      "prayerTimes": {
+        "fajr": "05:45",
+        "dhuhr": "12:15",
+        "asr": "14:30",
+        "maghrib": "17:45",
+        "isha": "19:15"
+      }
+    },
+    {
+      "id": "305",
+      "name": "Darul Ummah Goresbrook",
+      "address": "",
+      "latitude": 51.5342774,
+      "longitude": 0.1134572,
+      "facilities": [],
+      "prayerTimes": {
+        "fajr": "05:45",
+        "dhuhr": "12:15",
+        "asr": "14:30",
+        "maghrib": "17:45",
+        "isha": "19:15"
+      }
+    },
+    {
+      "id": "66",
+      "name": "Darul Ummah Masjid",
+      "address": "",
+      "latitude": 51.5124611,
+      "longitude": -0.0582975,
+      "facilities": [],
+      "prayerTimes": {
+        "fajr": "05:45",
+        "dhuhr": "12:15",
+        "asr": "14:30",
+        "maghrib": "17:45",
+        "isha": "19:15"
+      }
+    },
+    {
+      "id": "364",
+      "name": "Darussalam Masjid & Cultural Centre",
+      "address": "",
+      "latitude": 51.4973699,
+      "longitude": -0.398311,
+      "facilities": [],
+      "prayerTimes": {
+        "fajr": "05:45",
+        "dhuhr": "12:15",
+        "asr": "14:30",
+        "maghrib": "17:45",
+        "isha": "19:15"
+      }
+    },
+    {
+      "id": "160",
+      "name": "Dawatul Islam Community & Cultural Centre",
+      "address": "",
+      "latitude": 51.5877493,
+      "longitude": -0.0784836,
+      "facilities": [],
+      "prayerTimes": {
+        "fajr": "05:45",
+        "dhuhr": "12:15",
+        "asr": "14:30",
+        "maghrib": "17:45",
+        "isha": "19:15"
+      }
+    },
+    {
+      "id": "115",
+      "name": "Deptford Islamic Centre",
+      "address": "",
+      "latitude": 51.481128,
+      "longitude": -0.032796,
+      "facilities": [],
+      "prayerTimes": {
+        "fajr": "05:45",
+        "dhuhr": "12:15",
+        "asr": "14:30",
+        "maghrib": "17:45",
+        "isha": "19:15"
+      }
+    },
+    {
+      "id": "99",
+      "name": "Docklands Community Organisation Cultural & Educational Centre (Mosque)",
+      "address": "",
+      "latitude": 51.4968061,
+      "longitude": -0.0216776,
+      "facilities": [],
+      "prayerTimes": {
+        "fajr": "05:45",
+        "dhuhr": "12:15",
+        "asr": "14:30",
+        "maghrib": "17:45",
+        "isha": "19:15"
+      }
+    },
+    {
+      "id": "337",
+      "name": "Dulwich Islamic Centre & Mosque",
+      "address": "",
+      "latitude": 51.4574011,
+      "longitude": -0.0726261,
+      "facilities": [],
+      "prayerTimes": {
+        "fajr": "05:45",
+        "dhuhr": "12:15",
+        "asr": "14:30",
+        "maghrib": "17:45",
+        "isha": "19:15"
+      }
+    },
+    {
+      "id": "64",
+      "name": "East London Markazi Masjid",
+      "address": "",
+      "latitude": 51.5116899,
+      "longitude": -0.0643463,
+      "facilities": ["Women's section", "Jummah"],
+      "prayerTimes": {
+        "fajr": "05:45",
+        "dhuhr": "12:15",
+        "asr": "14:30",
+        "maghrib": "17:45",
+        "isha": "19:15"
+      }
+    },
+    {
+      "id": "4",
+      "name": "East London Mosque",
+      "address": "",
+      "latitude": 51.5175695,
+      "longitude": -0.0654875,
+      "facilities": ["Women's section"],
+      "prayerTimes": {
+        "fajr": "05:45",
+        "dhuhr": "12:15",
+        "asr": "14:30",
+        "maghrib": "17:45",
+        "isha": "19:15"
+      }
+    },
+    {
+      "id": "97",
+      "name": "Eastside Centre Masjid Railway Arches",
+      "address": "",
+      "latitude": 51.5125353,
+      "longitude": -0.0419648,
+      "facilities": [],
+      "prayerTimes": {
+        "fajr": "05:45",
+        "dhuhr": "12:15",
+        "asr": "14:30",
+        "maghrib": "17:45",
+        "isha": "19:15"
+      }
+    },
+    {
+      "id": "238",
+      "name": "Edgware Central Mosque",
+      "address": "",
+      "latitude": 51.6098887,
+      "longitude": -0.2779728,
+      "facilities": ["Women's section"],
+      "prayerTimes": {
+        "fajr": "05:45",
+        "dhuhr": "12:15",
+        "asr": "14:30",
+        "maghrib": "17:45",
+        "isha": "19:15"
+      }
+    },
+    {
+      "id": "239",
+      "name": "Edgware Mosque",
+      "address": "",
+      "latitude": 51.6070975,
+      "longitude": -0.2851612,
+      "facilities": [],
+      "prayerTimes": {
+        "fajr": "05:45",
+        "dhuhr": "12:15",
+        "asr": "14:30",
+        "maghrib": "17:45",
+        "isha": "19:15"
+      }
+    },
+    {
+      "id": "164",
+      "name": "Edmonton Islamic Centre",
+      "address": "",
+      "latitude": 51.613884,
+      "longitude": -0.0629733,
+      "facilities": [],
+      "prayerTimes": {
+        "fajr": "05:45",
+        "dhuhr": "12:15",
+        "asr": "14:30",
+        "maghrib": "17:45",
+        "isha": "19:15"
+      }
+    },
+    {
+      "id": "280",
+      "name": "Eman Foundation",
+      "address": "",
+      "latitude": 51.5649351,
+      "longitude": 0.1095593,
+      "facilities": ["Women's section"],
+      "prayerTimes": {
+        "fajr": "05:45",
+        "dhuhr": "12:15",
+        "asr": "14:30",
+        "maghrib": "17:45",
+        "isha": "19:15"
+      }
+    },
+    {
+      "id": "241",
+      "name": "Enfield Islamic Centre (Enfield Mosque)",
+      "address": "",
+      "latitude": 51.6459432,
+      "longitude": -0.0470948,
+      "facilities": ["Women's section", "Jummah"],
+      "prayerTimes": {
+        "fajr": "05:45",
+        "dhuhr": "12:15",
+        "asr": "14:30",
+        "maghrib": "17:45",
+        "isha": "19:15"
+      }
+    },
+    {
+      "id": "268",
+      "name": "Enfield Town Islamic Centre",
+      "address": "",
+      "latitude": 51.6525707,
+      "longitude": -0.0804189,
+      "facilities": [],
+      "prayerTimes": {
+        "fajr": "05:45",
+        "dhuhr": "12:15",
+        "asr": "14:30",
+        "maghrib": "17:45",
+        "isha": "19:15"
+      }
+    },
+    {
+      "id": "358",
+      "name": "Epsom & Ewell Islamic Society",
+      "address": "",
+      "latitude": 51.3388528,
+      "longitude": -0.2668018,
+      "facilities": [],
+      "prayerTimes": {
+        "fajr": "05:45",
+        "dhuhr": "12:15",
+        "asr": "14:30",
+        "maghrib": "17:45",
+        "isha": "19:15"
+      }
+    },
+    {
+      "id": "108",
+      "name": "Esha Atul Islam Mosque",
+      "address": "",
+      "latitude": 51.5159507,
+      "longitude": -0.0565354,
+      "facilities": [],
+      "prayerTimes": {
+        "fajr": "05:45",
+        "dhuhr": "12:15",
+        "asr": "14:30",
+        "maghrib": "17:45",
+        "isha": "19:15"
+      }
+    },
+    {
+      "id": "299",
+      "name": "Essex Islamic Academy",
+      "address": "",
+      "latitude": 51.5356786,
+      "longitude": 0.0933216,
+      "facilities": ["Women's section"],
+      "prayerTimes": {
+        "fajr": "05:45",
+        "dhuhr": "12:15",
+        "asr": "14:30",
+        "maghrib": "17:45",
+        "isha": "19:15"
+      }
+    },
+    {
+      "id": "397",
+      "name": "Eyup Sultan Mosque / Masjid",
+      "address": "",
+      "latitude": 51.5478699,
+      "longitude": -0.4803472,
+      "facilities": [],
+      "prayerTimes": {
+        "fajr": "05:45",
+        "dhuhr": "12:15",
+        "asr": "14:30",
+        "maghrib": "17:45",
+        "isha": "19:15"
+      }
+    },
+    {
+      "id": "233",
+      "name": "FATWA COUNCIL MOSQUE",
+      "address": "",
+      "latitude": 51.5884112,
+      "longitude": -0.2517535,
+      "facilities": ["Women's section"],
+      "prayerTimes": {
+        "fajr": "05:45",
+        "dhuhr": "12:15",
+        "asr": "14:30",
+        "maghrib": "17:45",
+        "isha": "19:15"
+      }
+    },
+    {
+      "id": "361",
+      "name": "Faizan-E-Jumu'ah Masjid",
+      "address": "",
+      "latitude": 51.4644169,
+      "longitude": -0.3689673,
+      "facilities": [],
+      "prayerTimes": {
+        "fajr": "05:45",
+        "dhuhr": "12:15",
+        "asr": "14:30",
+        "maghrib": "17:45",
+        "isha": "19:15"
+      }
+    },
+    {
+      "id": "284",
+      "name": "Faizan-e-Farooq-e-Azam",
+      "address": "",
+      "latitude": 51.5803053,
+      "longitude": 0.1275977,
+      "facilities": [],
+      "prayerTimes": {
+        "fajr": "05:45",
+        "dhuhr": "12:15",
+        "asr": "14:30",
+        "maghrib": "17:45",
+        "isha": "19:15"
+      }
+    },
+    {
+      "id": "294",
+      "name": "Faizan-e-Islam Mosque (Corbett Rd)",
+      "address": "",
+      "latitude": 51.5900983,
+      "longitude": -0.0036986,
+      "facilities": [],
+      "prayerTimes": {
+        "fajr": "05:45",
+        "dhuhr": "12:15",
+        "asr": "14:30",
+        "maghrib": "17:45",
+        "isha": "19:15"
+      }
+    },
+    {
+      "id": "146",
+      "name": "Faizan-e-Islam Mosque (Lea Bridge Rd)",
+      "address": "",
+      "latitude": 51.5796359,
+      "longitude": -0.0049144,
+      "facilities": [],
+      "prayerTimes": {
+        "fajr": "05:45",
+        "dhuhr": "12:15",
+        "asr": "14:30",
+        "maghrib": "17:45",
+        "isha": "19:15"
+      }
+    },
+    {
+      "id": "372",
+      "name": "Feltham HIRA Centre",
+      "address": "",
+      "latitude": 51.4539528,
+      "longitude": -0.4042092,
+      "facilities": [],
+      "prayerTimes": {
+        "fajr": "05:45",
+        "dhuhr": "12:15",
+        "asr": "14:30",
+        "maghrib": "17:45",
+        "isha": "19:15"
+      }
+    },
+    {
+      "id": "155",
+      "name": "Finchley Masjid",
+      "address": "",
+      "latitude": 51.6114252,
+      "longitude": -0.1757638,
+      "facilities": [],
+      "prayerTimes": {
+        "fajr": "05:45",
+        "dhuhr": "12:15",
+        "asr": "14:30",
+        "maghrib": "17:45",
+        "isha": "19:15"
+      }
+    },
+    {
+      "id": "137",
+      "name": "Finsbury Park Mosque",
+      "address": "",
+      "latitude": 51.5635376,
+      "longitude": -0.1056174,
+      "facilities": ["Women's section"],
+      "prayerTimes": {
+        "fajr": "05:45",
+        "dhuhr": "12:15",
+        "asr": "14:30",
+        "maghrib": "17:45",
+        "isha": "19:15"
+      }
+    },
+    {
+      "id": "227",
+      "name": "Forest Gate Mosque",
+      "address": "",
+      "latitude": 51.5475879,
+      "longitude": 0.0348805,
+      "facilities": [],
+      "prayerTimes": {
+        "fajr": "05:45",
+        "dhuhr": "12:15",
+        "asr": "14:30",
+        "maghrib": "17:45",
+        "isha": "19:15"
+      }
+    },
+    {
+      "id": "235",
+      "name": "GPISCO H.A.W.A. Peace and United Mosque",
+      "address": "",
+      "latitude": 51.6022232,
+      "longitude": -0.2442602,
+      "facilities": ["Women's section"],
+      "prayerTimes": {
+        "fajr": "05:45",
+        "dhuhr": "12:15",
+        "asr": "14:30",
+        "maghrib": "17:45",
+        "isha": "19:15"
+      }
+    },
+    {
+      "id": "292",
+      "name": "Gilwell Park Mosque",
+      "address": "",
+      "latitude": 51.6498503,
+      "longitude": 0.0015996,
+      "facilities": ["Wudu area"],
+      "prayerTimes": {
+        "fajr": "05:45",
+        "dhuhr": "12:15",
+        "asr": "14:30",
+        "maghrib": "17:45",
+        "isha": "19:15"
+      }
+    },
+    {
+      "id": "415",
+      "name": "Globe Town Mosque",
+      "address": "",
+      "latitude": 51.5286934,
+      "longitude": -0.0482295,
+      "facilities": [],
+      "prayerTimes": {
+        "fajr": "05:45",
+        "dhuhr": "12:15",
+        "asr": "14:30",
+        "maghrib": "17:45",
+        "isha": "19:15"
+      }
+    },
+    {
+      "id": "209",
+      "name": "Golborne Mosque Trust",
+      "address": "",
+      "latitude": 51.5219446,
+      "longitude": -0.2085909,
+      "facilities": [],
+      "prayerTimes": {
+        "fajr": "05:45",
+        "dhuhr": "12:15",
+        "asr": "14:30",
+        "maghrib": "17:45",
+        "isha": "19:15"
+      }
+    },
+    {
+      "id": "263",
+      "name": "Greenford Central Mosque",
+      "address": "",
+      "latitude": 51.5269444,
+      "longitude": -0.3519444,
+      "facilities": ["Women's section"],
+      "prayerTimes": {
+        "fajr": "05:45",
+        "dhuhr": "12:15",
+        "asr": "14:30",
+        "maghrib": "17:45",
+        "isha": "19:15"
+      }
+    },
+    {
+      "id": "313",
+      "name": "Greenwich Islamic Centre",
+      "address": "",
+      "latitude": 51.4904531,
+      "longitude": 0.0826452,
+      "facilities": ["Women's section"],
+      "prayerTimes": {
+        "fajr": "05:45",
+        "dhuhr": "12:15",
+        "asr": "14:30",
+        "maghrib": "17:45",
+        "isha": "19:15"
+      }
+    },
+    {
+      "id": "314",
+      "name": "Greenwich Madina Trust",
+      "address": "",
+      "latitude": 51.487342,
+      "longitude": 0.1028113,
+      "facilities": [],
+      "prayerTimes": {
+        "fajr": "05:45",
+        "dhuhr": "12:15",
+        "asr": "14:30",
+        "maghrib": "17:45",
+        "isha": "19:15"
+      }
+    },
+    {
+      "id": "78",
+      "name": "Hackney Central Jameah Masjid",
+      "address": "",
+      "latitude": 51.5442977,
+      "longitude": -0.0469132,
+      "facilities": [],
+      "prayerTimes": {
+        "fajr": "05:45",
+        "dhuhr": "12:15",
+        "asr": "14:30",
+        "maghrib": "17:45",
+        "isha": "19:15"
+      }
+    },
+    {
+      "id": "422",
+      "name": "Hamlets Way Masjid",
+      "address": "",
+      "latitude": 51.5233528,
+      "longitude": -0.0336195,
+      "facilities": [],
+      "prayerTimes": {
+        "fajr": "05:45",
+        "dhuhr": "12:15",
+        "asr": "14:30",
+        "maghrib": "17:45",
+        "isha": "19:15"
+      }
+    },
+    {
+      "id": "254",
+      "name": "Harlesden Islamic Cultural Centre",
+      "address": "",
+      "latitude": 51.5374557,
+      "longitude": -0.2843334,
+      "facilities": [],
+      "prayerTimes": {
+        "fajr": "05:45",
+        "dhuhr": "12:15",
+        "asr": "14:30",
+        "maghrib": "17:45",
+        "isha": "19:15"
+      }
+    },
+    {
+      "id": "210",
+      "name": "Harlesden Ummah Community Centre",
+      "address": "",
+      "latitude": 51.5379619,
+      "longitude": -0.2496208,
+      "facilities": [],
+      "prayerTimes": {
+        "fajr": "05:45",
+        "dhuhr": "12:15",
+        "asr": "14:30",
+        "maghrib": "17:45",
+        "isha": "19:15"
+      }
+    },
+    {
+      "id": "309",
+      "name": "Harold hill masjid",
+      "address": "",
+      "latitude": 51.5924474,
+      "longitude": 0.2169701,
+      "facilities": [],
+      "prayerTimes": {
+        "fajr": "05:45",
+        "dhuhr": "12:15",
+        "asr": "14:30",
+        "maghrib": "17:45",
+        "isha": "19:15"
+      }
+    },
+    {
+      "id": "244",
+      "name": "Harrow Central Mosque & Masood Islamic Centre",
+      "address": "",
+      "latitude": 51.5890525,
+      "longitude": -0.3321824,
+      "facilities": ["Women's section"],
+      "prayerTimes": {
+        "fajr": "05:45",
+        "dhuhr": "12:15",
+        "asr": "14:30",
+        "maghrib": "17:45",
+        "isha": "19:15"
+      }
+    },
+    {
+      "id": "204",
+      "name": "Harrow Road Jamme Mosque",
+      "address": "",
+      "latitude": 51.528532,
+      "longitude": -0.2053862,
+      "facilities": [],
+      "prayerTimes": {
+        "fajr": "05:45",
+        "dhuhr": "12:15",
+        "asr": "14:30",
+        "maghrib": "17:45",
+        "isha": "19:15"
+      }
+    },
+    {
+      "id": "286",
+      "name": "Havering Islamic Cultural Centre",
+      "address": "",
+      "latitude": 51.5732234,
+      "longitude": 0.179435,
+      "facilities": ["Women's section"],
+      "prayerTimes": {
+        "fajr": "05:45",
+        "dhuhr": "12:15",
+        "asr": "14:30",
+        "maghrib": "17:45",
+        "isha": "19:15"
+      }
+    },
+    {
+      "id": "363",
+      "name": "Heathrow Jamia Masjid",
+      "address": "",
+      "latitude": 51.4812071,
+      "longitude": -0.4152995,
+      "facilities": [],
+      "prayerTimes": {
+        "fajr": "05:45",
+        "dhuhr": "12:15",
+        "asr": "14:30",
+        "maghrib": "17:45",
+        "isha": "19:15"
+      }
+    },
+    {
+      "id": "141",
+      "name": "Hendon Mosque & Islamic Centre",
+      "address": "",
+      "latitude": 51.5776465,
+      "longitude": -0.239078,
+      "facilities": [],
+      "prayerTimes": {
+        "fajr": "05:45",
+        "dhuhr": "12:15",
+        "asr": "14:30",
+        "maghrib": "17:45",
+        "isha": "19:15"
+      }
+    },
+    {
+      "id": "95",
+      "name": "Hifzul Quran & Islamic Education Centre",
+      "address": "",
+      "latitude": 51.5150222,
+      "longitude": -0.0289089,
+      "facilities": [],
+      "prayerTimes": {
+        "fajr": "05:45",
+        "dhuhr": "12:15",
+        "asr": "14:30",
+        "maghrib": "17:45",
+        "isha": "19:15"
+      }
+    },
+    {
+      "id": "438",
+      "name": "High Barnet Islamic Centre",
+      "address": "",
+      "latitude": 51.656236,
+      "longitude": -0.2012829,
+      "facilities": [],
+      "prayerTimes": {
+        "fajr": "05:45",
+        "dhuhr": "12:15",
+        "asr": "14:30",
+        "maghrib": "17:45",
+        "isha": "19:15"
+      }
+    },
+    {
+      "id": "395",
+      "name": "Hillingdon Borough Central Mosque",
+      "address": "",
+      "latitude": 51.5033604,
+      "longitude": -0.4130545,
+      "facilities": [],
+      "prayerTimes": {
+        "fajr": "05:45",
+        "dhuhr": "12:15",
+        "asr": "14:30",
+        "maghrib": "17:45",
+        "isha": "19:15"
+      }
+    },
+    {
+      "id": "211",
+      "name": "Hillside Islamic Cultural Centre",
+      "address": "",
+      "latitude": 51.5426137,
+      "longitude": -0.2684044,
+      "facilities": [],
+      "prayerTimes": {
+        "fajr": "05:45",
+        "dhuhr": "12:15",
+        "asr": "14:30",
+        "maghrib": "17:45",
+        "isha": "19:15"
+      }
+    },
+    {
+      "id": "86",
+      "name": "Hind Grove Cultural And Community Association",
+      "address": "",
+      "latitude": 51.5129919,
+      "longitude": -0.0254789,
+      "facilities": [],
+      "prayerTimes": {
+        "fajr": "05:45",
+        "dhuhr": "12:15",
+        "asr": "14:30",
+        "maghrib": "17:45",
+        "isha": "19:15"
+      }
+    },
+    {
+      "id": "2",
+      "name": "Holborn Mosque",
+      "address": "",
+      "latitude": 51.5193632,
+      "longitude": -0.1111917,
+      "facilities": ["Women's section", "Jummah"],
+      "prayerTimes": {
+        "fajr": "05:45",
+        "dhuhr": "12:15",
+        "asr": "14:30",
+        "maghrib": "17:45",
+        "isha": "19:15"
+      }
+    },
+    {
+      "id": "360",
+      "name": "Hounslow Jamia Masjid",
+      "address": "",
+      "latitude": 51.4591864,
+      "longitude": -0.3747865,
+      "facilities": [],
+      "prayerTimes": {
+        "fajr": "05:45",
+        "dhuhr": "12:15",
+        "asr": "14:30",
+        "maghrib": "17:45",
+        "isha": "19:15"
+      }
+    },
+    {
+      "id": "376",
+      "name": "Hounslow Muslim Center",
+      "address": "",
+      "latitude": 51.469682,
+      "longitude": -0.3569896,
+      "facilities": [],
+      "prayerTimes": {
+        "fajr": "05:45",
+        "dhuhr": "12:15",
+        "asr": "14:30",
+        "maghrib": "17:45",
+        "isha": "19:15"
+      }
+    },
+    {
+      "id": "271",
+      "name": "Ilford Islamic Centre",
+      "address": "",
+      "latitude": 51.5563516,
+      "longitude": 0.0748991,
+      "facilities": ["Women's section"],
+      "prayerTimes": {
+        "fajr": "05:45",
+        "dhuhr": "12:15",
+        "asr": "14:30",
+        "maghrib": "17:45",
+        "isha": "19:15"
+      }
+    },
+    {
+      "id": "302",
+      "name": "Imam Jabir bin Zayd Islamic Centre",
+      "address": "",
+      "latitude": 51.535882,
+      "longitude": 0.077322,
+      "facilities": [],
+      "prayerTimes": {
+        "fajr": "05:45",
+        "dhuhr": "12:15",
+        "asr": "14:30",
+        "maghrib": "17:45",
+        "isha": "19:15"
+      }
+    },
+    {
+      "id": "205",
+      "name": "Imam Khoei Islamic Centre London",
+      "address": "",
+      "latitude": 51.5395255,
+      "longitude": -0.2100106,
+      "facilities": [],
+      "prayerTimes": {
+        "fajr": "05:45",
+        "dhuhr": "12:15",
+        "asr": "14:30",
+        "maghrib": "17:45",
+        "isha": "19:15"
+      }
+    },
+    {
+      "id": "237",
+      "name": "Islamic Centre Edgware",
+      "address": "",
+      "latitude": 51.6080177,
+      "longitude": -0.2737674,
+      "facilities": ["Women's section"],
+      "prayerTimes": {
+        "fajr": "05:45",
+        "dhuhr": "12:15",
+        "asr": "14:30",
+        "maghrib": "17:45",
+        "isha": "19:15"
+      }
+    },
+    {
+      "id": "176",
+      "name": "Islamic Centre Upton Park",
+      "address": "",
+      "latitude": 51.5338743,
+      "longitude": 0.0245979,
+      "facilities": [],
+      "prayerTimes": {
+        "fajr": "05:45",
+        "dhuhr": "12:15",
+        "asr": "14:30",
+        "maghrib": "17:45",
+        "isha": "19:15"
+      }
+    },
+    {
+      "id": "252",
+      "name": "Islamic Cultural Centre (Monks Park Masjid)",
+      "address": "",
+      "latitude": 51.5469851,
+      "longitude": -0.2745799,
+      "facilities": ["Women's section", "Parking"],
+      "prayerTimes": {
+        "fajr": "05:45",
+        "dhuhr": "12:15",
+        "asr": "14:30",
+        "maghrib": "17:45",
+        "isha": "19:15"
+      }
+    },
+    {
+      "id": "228",
+      "name": "Islamic Dawah Centre Manor Park",
+      "address": "",
+      "latitude": 51.545465,
+      "longitude": 0.0495772,
+      "facilities": ["Women's section", "Jummah"],
+      "prayerTimes": {
+        "fajr": "05:45",
+        "dhuhr": "12:15",
+        "asr": "14:30",
+        "maghrib": "17:45",
+        "isha": "19:15"
+      }
+    },
+    {
+      "id": "379",
+      "name": "Islamic Integration Community Centre",
+      "address": "",
+      "latitude": 51.4627623,
+      "longitude": -0.389633,
+      "facilities": [],
+      "prayerTimes": {
+        "fajr": "05:45",
+        "dhuhr": "12:15",
+        "asr": "14:30",
+        "maghrib": "17:45",
+        "isha": "19:15"
+      }
+    },
+    {
+      "id": "174",
+      "name": "Jamia Darus Sunnah",
+      "address": "",
+      "latitude": 51.5508598,
+      "longitude": 0.0252973,
+      "facilities": [],
+      "prayerTimes": {
+        "fajr": "05:45",
+        "dhuhr": "12:15",
+        "asr": "14:30",
+        "maghrib": "17:45",
+        "isha": "19:15"
+      }
+    },
+    {
+      "id": "180",
+      "name": "Jamia Masjid Ghousia (WFIA)",
+      "address": "",
+      "latitude": 51.5718933,
+      "longitude": -0.0215263,
+      "facilities": ["Women's section", "Jummah"],
+      "prayerTimes": {
+        "fajr": "05:45",
+        "dhuhr": "12:15",
+        "asr": "14:30",
+        "maghrib": "17:45",
+        "isha": "19:15"
+      }
+    },
+    {
+      "id": "200",
+      "name": "Jamia Masjid Mohi Ul Islam Siddiquia",
+      "address": "",
+      "latitude": 51.5311091,
+      "longitude": 0.0438533,
+      "facilities": [],
+      "prayerTimes": {
+        "fajr": "05:45",
+        "dhuhr": "12:15",
+        "asr": "14:30",
+        "maghrib": "17:45",
+        "isha": "19:15"
+      }
+    },
+    {
+      "id": "390",
+      "name": "Jamia Masjid West Drayton / Central Mosque",
+      "address": "",
+      "latitude": 51.5095004,
+      "longitude": -0.4743686,
+      "facilities": [],
+      "prayerTimes": {
+        "fajr": "05:45",
+        "dhuhr": "12:15",
+        "asr": "14:30",
+        "maghrib": "17:45",
+        "isha": "19:15"
+      }
+    },
+    {
+      "id": "216",
+      "name": "Jamia-al-Hafsah Masjid",
+      "address": "",
+      "latitude": 51.5674204,
+      "longitude": -0.2364293,
+      "facilities": [],
+      "prayerTimes": {
+        "fajr": "05:45",
+        "dhuhr": "12:15",
+        "asr": "14:30",
+        "maghrib": "17:45",
+        "isha": "19:15"
+      }
+    },
+    {
+      "id": "404",
+      "name": "Kilburn Islamic Centre (KIC)",
+      "address": "",
+      "latitude": 51.5440741,
+      "longitude": -0.2003743,
+      "facilities": ["Women's section"],
+      "prayerTimes": {
+        "fajr": "05:45",
+        "dhuhr": "12:15",
+        "asr": "14:30",
+        "maghrib": "17:45",
+        "isha": "19:15"
+      }
+    },
+    {
+      "id": "202",
+      "name": "Kilburn Muslim Welfare Association",
+      "address": "",
+      "latitude": 51.5382872,
+      "longitude": -0.1909149,
+      "facilities": [],
+      "prayerTimes": {
+        "fajr": "05:45",
+        "dhuhr": "12:15",
+        "asr": "14:30",
+        "maghrib": "17:45",
+        "isha": "19:15"
+      }
+    },
+    {
+      "id": "3",
+      "name": "Kings Cross Mosque and Islamic Cultural Centre",
+      "address": "",
+      "latitude": 51.528096,
+      "longitude": -0.1211939,
+      "facilities": ["Women's section", "Jummah"],
+      "prayerTimes": {
+        "fajr": "05:45",
+        "dhuhr": "12:15",
+        "asr": "14:30",
+        "maghrib": "17:45",
+        "isha": "19:15"
+      }
+    },
+    {
+      "id": "236",
+      "name": "Kingsbury Islamic Cultural Centre",
+      "address": "",
+      "latitude": 51.5929557,
+      "longitude": -0.2869365,
+      "facilities": ["Wudu area"],
+      "prayerTimes": {
+        "fajr": "05:45",
+        "dhuhr": "12:15",
+        "asr": "14:30",
+        "maghrib": "17:45",
+        "isha": "19:15"
+      }
+    },
+    {
+      "id": "380",
+      "name": "Kingston Muslim Association",
+      "address": "",
+      "latitude": 51.415823,
+      "longitude": -0.2980069,
+      "facilities": [],
+      "prayerTimes": {
+        "fajr": "05:45",
+        "dhuhr": "12:15",
+        "asr": "14:30",
+        "maghrib": "17:45",
+        "isha": "19:15"
+      }
+    },
+    {
+      "id": "134",
+      "name": "Lambeth Islamic Cultural Centre",
+      "address": "",
+      "latitude": 51.4645094,
+      "longitude": -0.1165781,
+      "facilities": [],
+      "prayerTimes": {
+        "fajr": "05:45",
+        "dhuhr": "12:15",
+        "asr": "14:30",
+        "maghrib": "17:45",
+        "isha": "19:15"
+      }
+    },
+    {
+      "id": "125",
+      "name": "Lambeth Masjid & Progressive Community Centre",
+      "address": "",
+      "latitude": 51.4665022,
+      "longitude": -0.1012266,
+      "facilities": [],
+      "prayerTimes": {
+        "fajr": "05:45",
+        "dhuhr": "12:15",
+        "asr": "14:30",
+        "maghrib": "17:45",
+        "isha": "19:15"
+      }
+    },
+    {
+      "id": "106",
+      "name": "Lansbury Estate Masjid",
+      "address": "",
+      "latitude": 51.5151658,
+      "longitude": -0.0182725,
+      "facilities": [],
+      "prayerTimes": {
+        "fajr": "05:45",
+        "dhuhr": "12:15",
+        "asr": "14:30",
+        "maghrib": "17:45",
+        "isha": "19:15"
+      }
+    },
+    {
+      "id": "116",
+      "name": "Lewisham Bengali Mosque",
+      "address": "",
+      "latitude": 51.4763382,
+      "longitude": -0.0368623,
+      "facilities": [],
+      "prayerTimes": {
+        "fajr": "05:45",
+        "dhuhr": "12:15",
+        "asr": "14:30",
+        "maghrib": "17:45",
+        "isha": "19:15"
+      }
+    },
+    {
+      "id": "126",
+      "name": "Lewisham Islamic Centre",
+      "address": "",
+      "latitude": 51.451885,
+      "longitude": -0.0164694,
+      "facilities": [],
+      "prayerTimes": {
+        "fajr": "05:45",
+        "dhuhr": "12:15",
+        "asr": "14:30",
+        "maghrib": "17:45",
+        "isha": "19:15"
+      }
+    },
+    {
+      "id": "186",
+      "name": "Leyton Sufi Masjid",
+      "address": "",
+      "latitude": 51.5610759,
+      "longitude": -0.009822,
+      "facilities": [],
+      "prayerTimes": {
+        "fajr": "05:45",
+        "dhuhr": "12:15",
+        "asr": "14:30",
+        "maghrib": "17:45",
+        "isha": "19:15"
+      }
+    },
+    {
+      "id": "229",
+      "name": "Leytonstone Masjid",
+      "address": "",
+      "latitude": 51.568242,
+      "longitude": 0.012834,
+      "facilities": ["Jummah"],
+      "prayerTimes": {
+        "fajr": "05:45",
+        "dhuhr": "12:15",
+        "asr": "14:30",
+        "maghrib": "17:45",
+        "isha": "19:15"
+      }
+    },
+    {
+      "id": "68",
+      "name": "Limehouse Masjid",
+      "address": "",
+      "latitude": 51.5100621,
+      "longitude": -0.0283741,
+      "facilities": [],
+      "prayerTimes": {
+        "fajr": "05:45",
+        "dhuhr": "12:15",
+        "asr": "14:30",
+        "maghrib": "17:45",
+        "isha": "19:15"
+      }
+    },
+    {
+      "id": "67",
+      "name": "Locksley Masjid (Mile End)",
+      "address": "",
+      "latitude": 51.5167833,
+      "longitude": -0.0318719,
+      "facilities": ["Parking"],
+      "prayerTimes": {
+        "fajr": "05:45",
+        "dhuhr": "12:15",
+        "asr": "14:30",
+        "maghrib": "17:45",
+        "isha": "19:15"
+      }
+    },
+    {
+      "id": "1",
+      "name": "London Central Mosque",
+      "address": "",
+      "latitude": 51.52901,
+      "longitude": -0.1648717,
+      "facilities": ["Women's section", "Jummah"],
+      "prayerTimes": {
+        "fajr": "05:45",
+        "dhuhr": "12:15",
+        "asr": "14:30",
+        "maghrib": "17:45",
+        "isha": "19:15"
+      }
+    },
+    {
+      "id": "197",
+      "name": "London Iqra Academy",
+      "address": "",
+      "latitude": 51.5237132,
+      "longitude": 0.0217812,
+      "facilities": [],
+      "prayerTimes": {
+        "fajr": "05:45",
+        "dhuhr": "12:15",
+        "asr": "14:30",
+        "maghrib": "17:45",
+        "isha": "19:15"
+      }
+    },
+    {
+      "id": "156",
+      "name": "London Islamic Cultural Society and Mosque",
+      "address": "",
+      "latitude": 51.5873216,
+      "longitude": -0.1092177,
+      "facilities": [],
+      "prayerTimes": {
+        "fajr": "05:45",
+        "dhuhr": "12:15",
+        "asr": "14:30",
+        "maghrib": "17:45",
+        "isha": "19:15"
+      }
+    },
+    {
+      "id": "270",
+      "name": "London Merit Association (Fazilet Mosque)",
+      "address": "",
+      "latitude": 51.6277786,
+      "longitude": -0.0442332,
+      "facilities": [],
+      "prayerTimes": {
+        "fajr": "05:45",
+        "dhuhr": "12:15",
+        "asr": "14:30",
+        "maghrib": "17:45",
+        "isha": "19:15"
+      }
+    },
+    {
+      "id": "297",
+      "name": "Loxford Muslim Society",
+      "address": "",
+      "latitude": 51.5523938,
+      "longitude": 0.0792446,
+      "facilities": [],
+      "prayerTimes": {
+        "fajr": "05:45",
+        "dhuhr": "12:15",
+        "asr": "14:30",
+        "maghrib": "17:45",
+        "isha": "19:15"
+      }
+    },
+    {
+      "id": "369",
+      "name": "MASJID AL -FORKAN",
+      "address": "",
+      "latitude": 51.5102852,
+      "longitude": -0.3758301,
+      "facilities": [],
+      "prayerTimes": {
+        "fajr": "05:45",
+        "dhuhr": "12:15",
+        "asr": "14:30",
+        "maghrib": "17:45",
+        "isha": "19:15"
+      }
+    },
+    {
+      "id": "307",
+      "name": "Madina Foundation Dagenham East",
+      "address": "",
+      "latitude": 51.5457249,
+      "longitude": 0.1651964,
+      "facilities": [],
+      "prayerTimes": {
+        "fajr": "05:45",
+        "dhuhr": "12:15",
+        "asr": "14:30",
+        "maghrib": "17:45",
+        "isha": "19:15"
+      }
+    },
+    {
+      "id": "214",
+      "name": "Madina Islamic Centre Masjid",
+      "address": "",
+      "latitude": 51.5629361,
+      "longitude": -0.1985642,
+      "facilities": ["Wudu area"],
+      "prayerTimes": {
+        "fajr": "05:45",
+        "dhuhr": "12:15",
+        "asr": "14:30",
+        "maghrib": "17:45",
+        "isha": "19:15"
+      }
+    },
+    {
+      "id": "377",
+      "name": "Madina Islamic Mission",
+      "address": "",
+      "latitude": 51.4648178,
+      "longitude": -0.3694008,
+      "facilities": [],
+      "prayerTimes": {
+        "fajr": "05:45",
+        "dhuhr": "12:15",
+        "asr": "14:30",
+        "maghrib": "17:45",
+        "isha": "19:15"
+      }
+    },
+    {
+      "id": "69",
+      "name": "Madina Jamme Masjid (Docklands)",
+      "address": "",
+      "latitude": 51.4885492,
+      "longitude": -0.0194725,
+      "facilities": [],
+      "prayerTimes": {
+        "fajr": "05:45",
+        "dhuhr": "12:15",
+        "asr": "14:30",
+        "maghrib": "17:45",
+        "isha": "19:15"
+      }
+    },
+    {
+      "id": "144",
+      "name": "Madina Mosque Trust",
+      "address": "",
+      "latitude": 51.5581974,
+      "longitude": -0.0547479,
+      "facilities": [],
+      "prayerTimes": {
+        "fajr": "05:45",
+        "dhuhr": "12:15",
+        "asr": "14:30",
+        "maghrib": "17:45",
+        "isha": "19:15"
+      }
+    },
+    {
+      "id": "329",
+      "name": "Makkah Masjid Mitcham",
+      "address": "",
+      "latitude": 51.4075003,
+      "longitude": -0.1641147,
+      "facilities": [],
+      "prayerTimes": {
+        "fajr": "05:45",
+        "dhuhr": "12:15",
+        "asr": "14:30",
+        "maghrib": "17:45",
+        "isha": "19:15"
+      }
+    },
+    {
+      "id": "264",
+      "name": "Mall pray mosque",
+      "address": "",
+      "latitude": 51.5767184,
+      "longitude": -0.225681,
+      "facilities": [],
+      "prayerTimes": {
+        "fajr": "05:45",
+        "dhuhr": "12:15",
+        "asr": "14:30",
+        "maghrib": "17:45",
+        "isha": "19:15"
+      }
+    },
+    {
+      "id": "330",
+      "name": "Manor Road Masjid",
+      "address": "",
+      "latitude": 51.4037696,
+      "longitude": -0.1375812,
+      "facilities": [],
+      "prayerTimes": {
+        "fajr": "05:45",
+        "dhuhr": "12:15",
+        "asr": "14:30",
+        "maghrib": "17:45",
+        "isha": "19:15"
+      }
+    },
+    {
+      "id": "255",
+      "name": "Markaz Us-Sunnah",
+      "address": "",
+      "latitude": 51.5391157,
+      "longitude": -0.2951188,
+      "facilities": ["Women's section"],
+      "prayerTimes": {
+        "fajr": "05:45",
+        "dhuhr": "12:15",
+        "asr": "14:30",
+        "maghrib": "17:45",
+        "isha": "19:15"
+      }
+    },
+    {
+      "id": "190",
+      "name": "Markazi Jamia Masjid Newham",
+      "address": "",
+      "latitude": 51.5416764,
+      "longitude": 0.0507652,
+      "facilities": [],
+      "prayerTimes": {
+        "fajr": "05:45",
+        "dhuhr": "12:15",
+        "asr": "14:30",
+        "maghrib": "17:45",
+        "isha": "19:15"
+      }
+    },
+    {
+      "id": "168",
+      "name": "Markazul Uloom London",
+      "address": "",
+      "latitude": 51.5498695,
+      "longitude": -0.0740489,
+      "facilities": [],
+      "prayerTimes": {
+        "fajr": "05:45",
+        "dhuhr": "12:15",
+        "asr": "14:30",
+        "maghrib": "17:45",
+        "isha": "19:15"
+      }
+    },
+    {
+      "id": "261",
+      "name": "Masjid",
+      "address": "",
+      "latitude": 51.5426635,
+      "longitude": -0.3641414,
+      "facilities": [],
+      "prayerTimes": {
+        "fajr": "05:45",
+        "dhuhr": "12:15",
+        "asr": "14:30",
+        "maghrib": "17:45",
+        "isha": "19:15"
+      }
+    },
+    {
+      "id": "371",
+      "name": "Masjid",
+      "address": "",
+      "latitude": 51.5082811,
+      "longitude": -0.3749968,
+      "facilities": [],
+      "prayerTimes": {
+        "fajr": "05:45",
+        "dhuhr": "12:15",
+        "asr": "14:30",
+        "maghrib": "17:45",
+        "isha": "19:15"
+      }
+    },
+    {
+      "id": "195",
+      "name": "Masjid (Friday & Taraweeh)",
+      "address": "",
+      "latitude": 51.52591,
+      "longitude": 0.057435,
+      "facilities": [],
+      "prayerTimes": {
+        "fajr": "05:45",
+        "dhuhr": "12:15",
+        "asr": "14:30",
+        "maghrib": "17:45",
+        "isha": "19:15"
+      }
+    },
+    {
+      "id": "175",
+      "name": "Masjid Abdul-Aziz Bin Baz",
+      "address": "",
+      "latitude": 51.5364704,
+      "longitude": 0.0187269,
+      "facilities": [],
+      "prayerTimes": {
+        "fajr": "05:45",
+        "dhuhr": "12:15",
+        "asr": "14:30",
+        "maghrib": "17:45",
+        "isha": "19:15"
+      }
+    },
+    {
+      "id": "312",
+      "name": "Masjid Abu Bakar",
+      "address": "",
+      "latitude": 51.4529608,
+      "longitude": 0.1772434,
+      "facilities": ["Women's section"],
+      "prayerTimes": {
+        "fajr": "05:45",
+        "dhuhr": "12:15",
+        "asr": "14:30",
+        "maghrib": "17:45",
+        "isha": "19:15"
+      }
+    },
+    {
+      "id": "231",
+      "name": "Masjid Abu Bakr مسجد‎",
+      "address": "",
+      "latitude": 51.585,
+      "longitude": -0.0277778,
+      "facilities": [],
+      "prayerTimes": {
+        "fajr": "05:45",
+        "dhuhr": "12:15",
+        "asr": "14:30",
+        "maghrib": "17:45",
+        "isha": "19:15"
+      }
+    },
+    {
+      "id": "278",
+      "name": "Masjid Adam - Green Lane Community Centre",
+      "address": "",
+      "latitude": 51.561243,
+      "longitude": 0.0990776,
+      "facilities": [],
+      "prayerTimes": {
+        "fajr": "05:45",
+        "dhuhr": "12:15",
+        "asr": "14:30",
+        "maghrib": "17:45",
+        "isha": "19:15"
+      }
+    },
+    {
+      "id": "71",
+      "name": "Masjid Al Habib",
+      "address": "",
+      "latitude": 51.5202862,
+      "longitude": 0.0178958,
+      "facilities": [],
+      "prayerTimes": {
+        "fajr": "05:45",
+        "dhuhr": "12:15",
+        "asr": "14:30",
+        "maghrib": "17:45",
+        "isha": "19:15"
+      }
+    },
+    {
+      "id": "72",
+      "name": "Masjid Al-Falah",
+      "address": "",
+      "latitude": 51.5251778,
+      "longitude": 0.0282771,
+      "facilities": [],
+      "prayerTimes": {
+        "fajr": "05:45",
+        "dhuhr": "12:15",
+        "asr": "14:30",
+        "maghrib": "17:45",
+        "isha": "19:15"
+      }
+    },
+    {
+      "id": "192",
+      "name": "Masjid Al-Humera مسجد‎",
+      "address": "",
+      "latitude": 51.5424282,
+      "longitude": 0.0327349,
+      "facilities": [],
+      "prayerTimes": {
+        "fajr": "05:45",
+        "dhuhr": "12:15",
+        "asr": "14:30",
+        "maghrib": "17:45",
+        "isha": "19:15"
+      }
+    },
+    {
+      "id": "148",
+      "name": "Masjid At-Tarbiyah",
+      "address": "",
+      "latitude": 51.5601612,
+      "longitude": -0.0731412,
+      "facilities": [],
+      "prayerTimes": {
+        "fajr": "05:45",
+        "dhuhr": "12:15",
+        "asr": "14:30",
+        "maghrib": "17:45",
+        "isha": "19:15"
+      }
+    },
+    {
+      "id": "189",
+      "name": "Masjid Bilal & Islamic Centre of East Ham",
+      "address": "",
+      "latitude": 51.5326513,
+      "longitude": 0.0513274,
+      "facilities": [],
+      "prayerTimes": {
+        "fajr": "05:45",
+        "dhuhr": "12:15",
+        "asr": "14:30",
+        "maghrib": "17:45",
+        "isha": "19:15"
+      }
+    },
+    {
+      "id": "129",
+      "name": "Masjid Daar us Sunnah",
+      "address": "",
+      "latitude": 51.5042551,
+      "longitude": -0.2273755,
+      "facilities": [],
+      "prayerTimes": {
+        "fajr": "05:45",
+        "dhuhr": "12:15",
+        "asr": "14:30",
+        "maghrib": "17:45",
+        "isha": "19:15"
+      }
+    },
+    {
+      "id": "133",
+      "name": "Masjid Ezzeitouna",
+      "address": "",
+      "latitude": 51.5140662,
+      "longitude": -0.2496356,
+      "facilities": [],
+      "prayerTimes": {
+        "fajr": "05:45",
+        "dhuhr": "12:15",
+        "asr": "14:30",
+        "maghrib": "17:45",
+        "isha": "19:15"
+      }
+    },
+    {
+      "id": "187",
+      "name": "Masjid Imam An-Nawawi",
+      "address": "",
+      "latitude": 51.5533367,
+      "longitude": -0.0531067,
+      "facilities": [],
+      "prayerTimes": {
+        "fajr": "05:45",
+        "dhuhr": "12:15",
+        "asr": "14:30",
+        "maghrib": "17:45",
+        "isha": "19:15"
+      }
+    },
+    {
+      "id": "245",
+      "name": "Masjid Imam Muqbil",
+      "address": "",
+      "latitude": 51.5674023,
+      "longitude": -0.3559757,
+      "facilities": ["Women's section"],
+      "prayerTimes": {
+        "fajr": "05:45",
+        "dhuhr": "12:15",
+        "asr": "14:30",
+        "maghrib": "17:45",
+        "isha": "19:15"
+      }
+    },
+    {
+      "id": "132",
+      "name": "Masjid Khalil",
+      "address": "",
+      "latitude": 51.5229568,
+      "longitude": -0.1941207,
+      "facilities": [],
+      "prayerTimes": {
+        "fajr": "05:45",
+        "dhuhr": "12:15",
+        "asr": "14:30",
+        "maghrib": "17:45",
+        "isha": "19:15"
+      }
+    },
+    {
+      "id": "243",
+      "name": "Masjid Noor",
+      "address": "",
+      "latitude": 51.597089,
+      "longitude": -0.3398927,
+      "facilities": [],
+      "prayerTimes": {
+        "fajr": "05:45",
+        "dhuhr": "12:15",
+        "asr": "14:30",
+        "maghrib": "17:45",
+        "isha": "19:15"
+      }
+    },
+    {
+      "id": "149",
+      "name": "Masjid Quba",
+      "address": "",
+      "latitude": 51.565,
+      "longitude": -0.0688889,
+      "facilities": [],
+      "prayerTimes": {
+        "fajr": "05:45",
+        "dhuhr": "12:15",
+        "asr": "14:30",
+        "maghrib": "17:45",
+        "isha": "19:15"
+      }
+    },
+    {
+      "id": "77",
+      "name": "Masjid Ramadan مسجد‎",
+      "address": "",
+      "latitude": 51.5508728,
+      "longitude": -0.0740815,
+      "facilities": [],
+      "prayerTimes": {
+        "fajr": "05:45",
+        "dhuhr": "12:15",
+        "asr": "14:30",
+        "maghrib": "17:45",
+        "isha": "19:15"
+      }
+    },
+    {
+      "id": "9",
+      "name": "Masjid Salahuddin",
+      "address": "",
+      "latitude": 51.5163058,
+      "longitude": -0.1715514,
+      "facilities": ["Women's section", "Jummah"],
+      "prayerTimes": {
+        "fajr": "05:45",
+        "dhuhr": "12:15",
+        "asr": "14:30",
+        "maghrib": "17:45",
+        "isha": "19:15"
+      }
+    },
+    {
+      "id": "194",
+      "name": "Masjid Ul Hidayah",
+      "address": "",
+      "latitude": 51.5476981,
+      "longitude": 0.0525239,
+      "facilities": [],
+      "prayerTimes": {
+        "fajr": "05:45",
+        "dhuhr": "12:15",
+        "asr": "14:30",
+        "maghrib": "17:45",
+        "isha": "19:15"
+      }
+    },
+    {
+      "id": "193",
+      "name": "Masjid Yousuf",
+      "address": "",
+      "latitude": 51.5464668,
+      "longitude": 0.0285525,
+      "facilities": [],
+      "prayerTimes": {
+        "fajr": "05:45",
+        "dhuhr": "12:15",
+        "asr": "14:30",
+        "maghrib": "17:45",
+        "isha": "19:15"
+      }
+    },
+    {
+      "id": "142",
+      "name": "Masjid Yusuf مسجد‎",
+      "address": "",
+      "latitude": 51.5659149,
+      "longitude": -0.1207751,
+      "facilities": [],
+      "prayerTimes": {
+        "fajr": "05:45",
+        "dhuhr": "12:15",
+        "asr": "14:30",
+        "maghrib": "17:45",
+        "isha": "19:15"
+      }
+    },
+    {
+      "id": "179",
+      "name": "Masjid and Madrasah Al-Tawhid",
+      "address": "",
+      "latitude": 51.5531349,
+      "longitude": -0.0048644,
+      "facilities": [],
+      "prayerTimes": {
+        "fajr": "05:45",
+        "dhuhr": "12:15",
+        "asr": "14:30",
+        "maghrib": "17:45",
+        "isha": "19:15"
+      }
+    },
+    {
+      "id": "177",
+      "name": "Masjid e Ilyas Markaz Tableegh",
+      "address": "",
+      "latitude": 51.5298833,
+      "longitude": 0.0025796,
+      "facilities": [],
+      "prayerTimes": {
+        "fajr": "05:45",
+        "dhuhr": "12:15",
+        "asr": "14:30",
+        "maghrib": "17:45",
+        "isha": "19:15"
+      }
+    },
+    {
+      "id": "145",
+      "name": "Masjid e Umer - Walthamstow Central Mosque",
+      "address": "",
+      "latitude": 51.5784614,
+      "longitude": -0.0233325,
+      "facilities": [],
+      "prayerTimes": {
+        "fajr": "05:45",
+        "dhuhr": "12:15",
+        "asr": "14:30",
+        "maghrib": "17:45",
+        "isha": "19:15"
+      }
+    },
+    {
+      "id": "224",
+      "name": "Masjid in Basement",
+      "address": "",
+      "latitude": 51.490409,
+      "longitude": -0.2844959,
+      "facilities": [],
+      "prayerTimes": {
+        "fajr": "05:45",
+        "dhuhr": "12:15",
+        "asr": "14:30",
+        "maghrib": "17:45",
+        "isha": "19:15"
+      }
+    },
+    {
+      "id": "362",
+      "name": "Masjid us Sunnah",
+      "address": "",
+      "latitude": 51.4782749,
+      "longitude": -0.406932,
+      "facilities": [],
+      "prayerTimes": {
+        "fajr": "05:45",
+        "dhuhr": "12:15",
+        "asr": "14:30",
+        "maghrib": "17:45",
+        "isha": "19:15"
+      }
+    },
+    {
+      "id": "272",
+      "name": "Masjid-E-Dawatul Islam",
+      "address": "",
+      "latitude": 51.563161,
+      "longitude": 0.076658,
+      "facilities": ["Women's section"],
+      "prayerTimes": {
+        "fajr": "05:45",
+        "dhuhr": "12:15",
+        "asr": "14:30",
+        "maghrib": "17:45",
+        "isha": "19:15"
+      }
+    },
+    {
+      "id": "191",
+      "name": "Masjid-E-Quba",
+      "address": "",
+      "latitude": 51.5425855,
+      "longitude": 0.042407,
+      "facilities": [],
+      "prayerTimes": {
+        "fajr": "05:45",
+        "dhuhr": "12:15",
+        "asr": "14:30",
+        "maghrib": "17:45",
+        "isha": "19:15"
+      }
+    },
+    {
+      "id": "275",
+      "name": "Masjid-e-Owais-e-Qarni (Belgrave Masjid)",
+      "address": "",
+      "latitude": 51.565359,
+      "longitude": 0.0563817,
+      "facilities": ["Women's section"],
+      "prayerTimes": {
+        "fajr": "05:45",
+        "dhuhr": "12:15",
+        "asr": "14:30",
+        "maghrib": "17:45",
+        "isha": "19:15"
+      }
+    },
+    {
+      "id": "150",
+      "name": "Masjid-ul-Uthmaan",
+      "address": "",
+      "latitude": 51.5763377,
+      "longitude": -0.0669938,
+      "facilities": [],
+      "prayerTimes": {
+        "fajr": "05:45",
+        "dhuhr": "12:15",
+        "asr": "14:30",
+        "maghrib": "17:45",
+        "isha": "19:15"
+      }
+    },
+    {
+      "id": "8",
+      "name": "Mayfair Islamic Centre",
+      "address": "",
+      "latitude": 51.5054278,
+      "longitude": -0.1489583,
+      "facilities": ["Women's section"],
+      "prayerTimes": {
+        "fajr": "05:45",
+        "dhuhr": "12:15",
+        "asr": "14:30",
+        "maghrib": "17:45",
+        "isha": "19:15"
+      }
+    },
+    {
+      "id": "420",
+      "name": "Mimbar Academy and Cultural Centre & Mosque أكاديمية منبر و المركز الثقافي",
+      "address": "",
+      "latitude": 51.5390949,
+      "longitude": -0.0244353,
+      "facilities": [],
+      "prayerTimes": {
+        "fajr": "05:45",
+        "dhuhr": "12:15",
+        "asr": "14:30",
+        "maghrib": "17:45",
+        "isha": "19:15"
+      }
+    },
+    {
+      "id": "172",
+      "name": "Minhaj-ul-Quran London",
+      "address": "",
+      "latitude": 51.5462312,
+      "longitude": 0.0248948,
+      "facilities": [],
+      "prayerTimes": {
+        "fajr": "05:45",
+        "dhuhr": "12:15",
+        "asr": "14:30",
+        "maghrib": "17:45",
+        "isha": "19:15"
+      }
+    },
+    {
+      "id": "375",
+      "name": "Molesey Islamic Cultural Centre",
+      "address": "",
+      "latitude": 51.3999301,
+      "longitude": -0.3544811,
+      "facilities": [],
+      "prayerTimes": {
+        "fajr": "05:45",
+        "dhuhr": "12:15",
+        "asr": "14:30",
+        "maghrib": "17:45",
+        "isha": "19:15"
+      }
+    },
+    {
+      "id": "357",
+      "name": "Morden Islamic Community Centre",
+      "address": "",
+      "latitude": 51.4007355,
+      "longitude": -0.1963884,
+      "facilities": [],
+      "prayerTimes": {
+        "fajr": "05:45",
+        "dhuhr": "12:15",
+        "asr": "14:30",
+        "maghrib": "17:45",
+        "isha": "19:15"
+      }
+    },
+    {
+      "id": "157",
+      "name": "Mosque",
+      "address": "",
+      "latitude": 51.5878871,
+      "longitude": -0.117455,
+      "facilities": [],
+      "prayerTimes": {
+        "fajr": "05:45",
+        "dhuhr": "12:15",
+        "asr": "14:30",
+        "maghrib": "17:45",
+        "isha": "19:15"
+      }
+    },
+    {
+      "id": "343",
+      "name": "Mosque Darul Uloom",
+      "address": "",
+      "latitude": 51.4172179,
+      "longitude": 0.0809149,
+      "facilities": [],
+      "prayerTimes": {
+        "fajr": "05:45",
+        "dhuhr": "12:15",
+        "asr": "14:30",
+        "maghrib": "17:45",
+        "isha": "19:15"
+      }
+    },
+    {
+      "id": "147",
+      "name": "Musallaa an Noor",
+      "address": "",
+      "latitude": 51.5598952,
+      "longitude": -0.0743797,
+      "facilities": [],
+      "prayerTimes": {
+        "fajr": "05:45",
+        "dhuhr": "12:15",
+        "asr": "14:30",
+        "maghrib": "17:45",
+        "isha": "19:15"
+      }
+    },
+    {
+      "id": "301",
+      "name": "Muslim Community Center",
+      "address": "",
+      "latitude": 51.5501621,
+      "longitude": 0.0801023,
+      "facilities": [],
+      "prayerTimes": {
+        "fajr": "05:45",
+        "dhuhr": "12:15",
+        "asr": "14:30",
+        "maghrib": "17:45",
+        "isha": "19:15"
+      }
+    },
+    {
+      "id": "185",
+      "name": "Muslim Community Trust",
+      "address": "",
+      "latitude": 51.5612275,
+      "longitude": -0.0099099,
+      "facilities": [],
+      "prayerTimes": {
+        "fajr": "05:45",
+        "dhuhr": "12:15",
+        "asr": "14:30",
+        "maghrib": "17:45",
+        "isha": "19:15"
+      }
+    },
+    {
+      "id": "355",
+      "name": "Muslim Cultural & Welfare Association of Sutton (MCWAS)",
+      "address": "",
+      "latitude": 51.3632557,
+      "longitude": -0.1576201,
+      "facilities": [],
+      "prayerTimes": {
+        "fajr": "05:45",
+        "dhuhr": "12:15",
+        "asr": "14:30",
+        "maghrib": "17:45",
+        "isha": "19:15"
+      }
+    },
+    {
+      "id": "163",
+      "name": "Muslim Cultural Society Mosque",
+      "address": "",
+      "latitude": 51.6127742,
+      "longitude": -0.0650707,
+      "facilities": [],
+      "prayerTimes": {
+        "fajr": "05:45",
+        "dhuhr": "12:15",
+        "asr": "14:30",
+        "maghrib": "17:45",
+        "isha": "19:15"
+      }
+    },
+    {
+      "id": "143",
+      "name": "Muslim Welfare House",
+      "address": "",
+      "latitude": 51.5635343,
+      "longitude": -0.1071569,
+      "facilities": [],
+      "prayerTimes": {
+        "fajr": "05:45",
+        "dhuhr": "12:15",
+        "asr": "14:30",
+        "maghrib": "17:45",
+        "isha": "19:15"
+      }
+    },
+    {
+      "id": "12",
+      "name": "Muslim World League",
+      "address": "",
+      "latitude": 51.5195056,
+      "longitude": -0.1359749,
+      "facilities": ["Women's section", "Jummah"],
+      "prayerTimes": {
+        "fajr": "05:45",
+        "dhuhr": "12:15",
+        "asr": "14:30",
+        "maghrib": "17:45",
+        "isha": "19:15"
+      }
+    },
+    {
+      "id": "140",
+      "name": "Neasden Mosque & Islamic Centre",
+      "address": "",
+      "latitude": 51.5595821,
+      "longitude": -0.2504619,
+      "facilities": [],
+      "prayerTimes": {
+        "fajr": "05:45",
+        "dhuhr": "12:15",
+        "asr": "14:30",
+        "maghrib": "17:45",
+        "isha": "19:15"
+      }
+    },
+    {
+      "id": "112",
+      "name": "New Peckham Mosque",
+      "address": "",
+      "latitude": 51.4844444,
+      "longitude": -0.0763889,
+      "facilities": ["Jummah"],
+      "prayerTimes": {
+        "fajr": "05:45",
+        "dhuhr": "12:15",
+        "asr": "14:30",
+        "maghrib": "17:45",
+        "isha": "19:15"
+      }
+    },
+    {
+      "id": "273",
+      "name": "Newbury Park Masjid",
+      "address": "",
+      "latitude": 51.5813713,
+      "longitude": 0.0915754,
+      "facilities": ["Women's section"],
+      "prayerTimes": {
+        "fajr": "05:45",
+        "dhuhr": "12:15",
+        "asr": "14:30",
+        "maghrib": "17:45",
+        "isha": "19:15"
+      }
+    },
+    {
+      "id": "181",
+      "name": "Noor Ul Islam",
+      "address": "",
+      "latitude": 51.5721693,
+      "longitude": -0.0085808,
+      "facilities": [],
+      "prayerTimes": {
+        "fajr": "05:45",
+        "dhuhr": "12:15",
+        "asr": "14:30",
+        "maghrib": "17:45",
+        "isha": "19:15"
+      }
+    },
+    {
+      "id": "351",
+      "name": "Norbury Islamic Academy",
+      "address": "",
+      "latitude": 51.4132936,
+      "longitude": -0.1245859,
+      "facilities": [],
+      "prayerTimes": {
+        "fajr": "05:45",
+        "dhuhr": "12:15",
+        "asr": "14:30",
+        "maghrib": "17:45",
+        "isha": "19:15"
+      }
+    },
+    {
+      "id": "348",
+      "name": "Norbury Muslim Centre",
+      "address": "",
+      "latitude": 51.4023575,
+      "longitude": -0.1185381,
+      "facilities": [],
+      "prayerTimes": {
+        "fajr": "05:45",
+        "dhuhr": "12:15",
+        "asr": "14:30",
+        "maghrib": "17:45",
+        "isha": "19:15"
+      }
+    },
+    {
+      "id": "122",
+      "name": "North Brixton Islamic Cultural Centre",
+      "address": "",
+      "latitude": 51.4740255,
+      "longitude": -0.1129536,
+      "facilities": [],
+      "prayerTimes": {
+        "fajr": "05:45",
+        "dhuhr": "12:15",
+        "asr": "14:30",
+        "maghrib": "17:45",
+        "isha": "19:15"
+      }
+    },
+    {
+      "id": "247",
+      "name": "North Watford Jamia Mosque",
+      "address": "",
+      "latitude": 51.6828947,
+      "longitude": -0.4027763,
+      "facilities": ["Women's section"],
+      "prayerTimes": {
+        "fajr": "05:45",
+        "dhuhr": "12:15",
+        "asr": "14:30",
+        "maghrib": "17:45",
+        "isha": "19:15"
+      }
+    },
+    {
+      "id": "260",
+      "name": "Northolt mosque Masjid",
+      "address": "",
+      "latitude": 51.5433564,
+      "longitude": -0.3762736,
+      "facilities": [],
+      "prayerTimes": {
+        "fajr": "05:45",
+        "dhuhr": "12:15",
+        "asr": "14:30",
+        "maghrib": "17:45",
+        "isha": "19:15"
+      }
+    },
+    {
+      "id": "347",
+      "name": "Nurani Cultural Centre",
+      "address": "",
+      "latitude": 51.3503721,
+      "longitude": 0.0897153,
+      "facilities": [],
+      "prayerTimes": {
+        "fajr": "05:45",
+        "dhuhr": "12:15",
+        "asr": "14:30",
+        "maghrib": "17:45",
+        "isha": "19:15"
+      }
+    },
+    {
+      "id": "5",
+      "name": "Old Kent Road Mosque & Islamic Cultural Centre",
+      "address": "",
+      "latitude": 51.4876939,
+      "longitude": -0.0751092,
+      "facilities": [],
+      "prayerTimes": {
+        "fajr": "05:45",
+        "dhuhr": "12:15",
+        "asr": "14:30",
+        "maghrib": "17:45",
+        "isha": "19:15"
+      }
+    },
+    {
+      "id": "138",
+      "name": "Palmers Green Mosque",
+      "address": "",
+      "latitude": 51.6152111,
+      "longitude": -0.104525,
+      "facilities": ["Women's section", "Parking", "Jummah"],
+      "prayerTimes": {
+        "fajr": "05:45",
+        "dhuhr": "12:15",
+        "asr": "14:30",
+        "maghrib": "17:45",
+        "isha": "19:15"
+      }
+    },
+    {
+      "id": "119",
+      "name": "Peckham Islamic Centre مسجد‎",
+      "address": "",
+      "latitude": 51.4674484,
+      "longitude": -0.0694325,
+      "facilities": [],
+      "prayerTimes": {
+        "fajr": "05:45",
+        "dhuhr": "12:15",
+        "asr": "14:30",
+        "maghrib": "17:45",
+        "isha": "19:15"
+      }
+    },
+    {
+      "id": "346",
+      "name": "Penge Islamic Centre",
+      "address": "",
+      "latitude": 51.4146751,
+      "longitude": -0.0517837,
+      "facilities": [],
+      "prayerTimes": {
+        "fajr": "05:45",
+        "dhuhr": "12:15",
+        "asr": "14:30",
+        "maghrib": "17:45",
+        "isha": "19:15"
+      }
+    },
+    {
+      "id": "16",
+      "name": "Pitfield mosque",
+      "address": "",
+      "latitude": 51.5295623,
+      "longitude": -0.0837047,
+      "facilities": ["Women's section", "Wudu area"],
+      "prayerTimes": {
+        "fajr": "05:45",
+        "dhuhr": "12:15",
+        "asr": "14:30",
+        "maghrib": "17:45",
+        "isha": "19:15"
+      }
+    },
+    {
+      "id": "198",
+      "name": "Plaistow Jamia Islamia",
+      "address": "",
+      "latitude": 51.5280282,
+      "longitude": 0.0239146,
+      "facilities": [],
+      "prayerTimes": {
+        "fajr": "05:45",
+        "dhuhr": "12:15",
+        "asr": "14:30",
+        "maghrib": "17:45",
+        "isha": "19:15"
+      }
+    },
+    {
+      "id": "425",
+      "name": "Poplar Central Mosque",
+      "address": "",
+      "latitude": 51.511524,
+      "longitude": -0.0098621,
+      "facilities": [],
+      "prayerTimes": {
+        "fajr": "05:45",
+        "dhuhr": "12:15",
+        "asr": "14:30",
+        "maghrib": "17:45",
+        "isha": "19:15"
+      }
+    },
+    {
+      "id": "85",
+      "name": "Poplar Mosque & Community Centre",
+      "address": "",
+      "latitude": 51.5110286,
+      "longitude": -0.0097515,
+      "facilities": [],
+      "prayerTimes": {
+        "fajr": "05:45",
+        "dhuhr": "12:15",
+        "asr": "14:30",
+        "maghrib": "17:45",
+        "isha": "19:15"
+      }
+    },
+    {
+      "id": "409",
+      "name": "Potters Bar Islamic Cultural Centre",
+      "address": "",
+      "latitude": 51.6994,
+      "longitude": -0.2009508,
+      "facilities": [],
+      "prayerTimes": {
+        "fajr": "05:45",
+        "dhuhr": "12:15",
+        "asr": "14:30",
+        "maghrib": "17:45",
+        "isha": "19:15"
+      }
+    },
+    {
+      "id": "333",
+      "name": "Purley Masjid",
+      "address": "",
+      "latitude": 51.3390611,
+      "longitude": -0.1132225,
+      "facilities": ["Women's section"],
+      "prayerTimes": {
+        "fajr": "05:45",
+        "dhuhr": "12:15",
+        "asr": "14:30",
+        "maghrib": "17:45",
+        "isha": "19:15"
+      }
+    },
+    {
+      "id": "394",
+      "name": "Quba Masjid Hayes",
+      "address": "",
+      "latitude": 51.5088044,
+      "longitude": -0.4228552,
+      "facilities": [],
+      "prayerTimes": {
+        "fajr": "05:45",
+        "dhuhr": "12:15",
+        "asr": "14:30",
+        "maghrib": "17:45",
+        "isha": "19:15"
+      }
+    },
+    {
+      "id": "35",
+      "name": "Queensway Mosque",
+      "address": "",
+      "latitude": 51.5112367,
+      "longitude": -0.1875034,
+      "facilities": ["Women's section", "Wudu area", "Jummah"],
+      "prayerTimes": {
+        "fajr": "05:45",
+        "dhuhr": "12:15",
+        "asr": "14:30",
+        "maghrib": "17:45",
+        "isha": "19:15"
+      }
+    },
+    {
+      "id": "173",
+      "name": "Quwwatul Islam Masjid",
+      "address": "",
+      "latitude": 51.5444485,
+      "longitude": 0.025961,
+      "facilities": ["Jummah"],
+      "prayerTimes": {
+        "fajr": "05:45",
+        "dhuhr": "12:15",
+        "asr": "14:30",
+        "maghrib": "17:45",
+        "isha": "19:15"
+      }
+    },
+    {
+      "id": "290",
+      "name": "Redbridge Islamic Centre",
+      "address": "",
+      "latitude": 51.5764709,
+      "longitude": 0.0519581,
+      "facilities": ["Women's section"],
+      "prayerTimes": {
+        "fajr": "05:45",
+        "dhuhr": "12:15",
+        "asr": "14:30",
+        "maghrib": "17:45",
+        "isha": "19:15"
+      }
+    },
+    {
+      "id": "274",
+      "name": "Redbridge Islamic Centre (Gants Hill Masjid)",
+      "address": "",
+      "latitude": 51.5779452,
+      "longitude": 0.0652388,
+      "facilities": ["Women's section"],
+      "prayerTimes": {
+        "fajr": "05:45",
+        "dhuhr": "12:15",
+        "asr": "14:30",
+        "maghrib": "17:45",
+        "isha": "19:15"
+      }
+    },
+    {
+      "id": "107",
+      "name": "Redcoat Community Centre and Masjid",
+      "address": "",
+      "latitude": 51.5166613,
+      "longitude": -0.0481082,
+      "facilities": [],
+      "prayerTimes": {
+        "fajr": "05:45",
+        "dhuhr": "12:15",
+        "asr": "14:30",
+        "maghrib": "17:45",
+        "isha": "19:15"
+      }
+    },
+    {
+      "id": "315",
+      "name": "Riverside Muslim Association",
+      "address": "",
+      "latitude": 51.5206246,
+      "longitude": 0.108923,
+      "facilities": [],
+      "prayerTimes": {
+        "fajr": "05:45",
+        "dhuhr": "12:15",
+        "asr": "14:30",
+        "maghrib": "17:45",
+        "isha": "19:15"
+      }
+    },
+    {
+      "id": "285",
+      "name": "Romford Mosque",
+      "address": "",
+      "latitude": 51.5729571,
+      "longitude": 0.1650113,
+      "facilities": ["Women's section"],
+      "prayerTimes": {
+        "fajr": "05:45",
+        "dhuhr": "12:15",
+        "asr": "14:30",
+        "maghrib": "17:45",
+        "isha": "19:15"
+      }
+    },
+    {
+      "id": "165",
+      "name": "Rumiؒ Mosque",
+      "address": "",
+      "latitude": 51.6207287,
+      "longitude": -0.0622481,
+      "facilities": [],
+      "prayerTimes": {
+        "fajr": "05:45",
+        "dhuhr": "12:15",
+        "asr": "14:30",
+        "maghrib": "17:45",
+        "isha": "19:15"
+      }
+    },
+    {
+      "id": "113",
+      "name": "SRICC Baitul Rahman Masjid",
+      "address": "",
+      "latitude": 51.49239,
+      "longitude": -0.0835818,
+      "facilities": [],
+      "prayerTimes": {
+        "fajr": "05:45",
+        "dhuhr": "12:15",
+        "asr": "14:30",
+        "maghrib": "17:45",
+        "isha": "19:15"
+      }
+    },
+    {
+      "id": "162",
+      "name": "Said Nursi Mosque",
+      "address": "",
+      "latitude": 51.6052088,
+      "longitude": -0.0542384,
+      "facilities": [],
+      "prayerTimes": {
+        "fajr": "05:45",
+        "dhuhr": "12:15",
+        "asr": "14:30",
+        "maghrib": "17:45",
+        "isha": "19:15"
+      }
+    },
+    {
+      "id": "277",
+      "name": "Seven Kings Mosque مسجد‎",
+      "address": "",
+      "latitude": 51.564472,
+      "longitude": 0.0983211,
+      "facilities": [],
+      "prayerTimes": {
+        "fajr": "05:45",
+        "dhuhr": "12:15",
+        "asr": "14:30",
+        "maghrib": "17:45",
+        "isha": "19:15"
+      }
+    },
+    {
+      "id": "153",
+      "name": "Sh. Abdirahman mosque",
+      "address": "",
+      "latitude": 51.5486186,
+      "longitude": -0.1531287,
+      "facilities": [],
+      "prayerTimes": {
+        "fajr": "05:45",
+        "dhuhr": "12:15",
+        "asr": "14:30",
+        "maghrib": "17:45",
+        "isha": "19:15"
+      }
+    },
+    {
+      "id": "94",
+      "name": "Shadwell Gardens TRA Masjid",
+      "address": "",
+      "latitude": 51.5112715,
+      "longitude": -0.0559365,
+      "facilities": [],
+      "prayerTimes": {
+        "fajr": "05:45",
+        "dhuhr": "12:15",
+        "asr": "14:30",
+        "maghrib": "17:45",
+        "isha": "19:15"
+      }
+    },
+    {
+      "id": "427",
+      "name": "Shadwell Jame Masjid",
+      "address": "",
+      "latitude": 51.511974,
+      "longitude": -0.0556363,
+      "facilities": [],
+      "prayerTimes": {
+        "fajr": "05:45",
+        "dhuhr": "12:15",
+        "asr": "14:30",
+        "maghrib": "17:45",
+        "isha": "19:15"
+      }
+    },
+    {
+      "id": "316",
+      "name": "Shah Jalal Mosque",
+      "address": "",
+      "latitude": 51.4268745,
+      "longitude": 0.1026951,
+      "facilities": [],
+      "prayerTimes": {
+        "fajr": "05:45",
+        "dhuhr": "12:15",
+        "asr": "14:30",
+        "maghrib": "17:45",
+        "isha": "19:15"
+      }
+    },
+    {
+      "id": "14",
+      "name": "Shahjalal Jame Masjid (Euston Mosque)",
+      "address": "",
+      "latitude": 51.5273101,
+      "longitude": -0.1374215,
+      "facilities": ["Women's section"],
+      "prayerTimes": {
+        "fajr": "05:45",
+        "dhuhr": "12:15",
+        "asr": "14:30",
+        "maghrib": "17:45",
+        "isha": "19:15"
+      }
+    },
+    {
+      "id": "352",
+      "name": "Shahjalal Masjid and Islamic Cultural Centre",
+      "address": "",
+      "latitude": 51.3836444,
+      "longitude": -0.1087251,
+      "facilities": [],
+      "prayerTimes": {
+        "fajr": "05:45",
+        "dhuhr": "12:15",
+        "asr": "14:30",
+        "maghrib": "17:45",
+        "isha": "19:15"
+      }
+    },
+    {
+      "id": "98",
+      "name": "Shahjalal Mosque Poplar",
+      "address": "",
+      "latitude": 51.5094638,
+      "longitude": -0.0175366,
+      "facilities": [],
+      "prayerTimes": {
+        "fajr": "05:45",
+        "dhuhr": "12:15",
+        "asr": "14:30",
+        "maghrib": "17:45",
+        "isha": "19:15"
+      }
+    },
+    {
+      "id": "82",
+      "name": "Shahporan Masjid And Islamic Centre Trust",
+      "address": "",
+      "latitude": 51.5319103,
+      "longitude": -0.0603179,
+      "facilities": [],
+      "prayerTimes": {
+        "fajr": "05:45",
+        "dhuhr": "12:15",
+        "asr": "14:30",
+        "maghrib": "17:45",
+        "isha": "19:15"
+      }
+    },
+    {
+      "id": "151",
+      "name": "Sheikh Nazim Sufi Centre",
+      "address": "",
+      "latitude": 51.5807075,
+      "longitude": -0.0850299,
+      "facilities": [],
+      "prayerTimes": {
+        "fajr": "05:45",
+        "dhuhr": "12:15",
+        "asr": "14:30",
+        "maghrib": "17:45",
+        "isha": "19:15"
+      }
+    },
+    {
+      "id": "128",
+      "name": "Shepherd's Bush Mosque",
+      "address": "",
+      "latitude": 51.5063745,
+      "longitude": -0.2314181,
+      "facilities": ["Jummah"],
+      "prayerTimes": {
+        "fajr": "05:45",
+        "dhuhr": "12:15",
+        "asr": "14:30",
+        "maghrib": "17:45",
+        "isha": "19:15"
+      }
+    },
+    {
+      "id": "17",
+      "name": "Shoreditch Mosque مسجد‎",
+      "address": "",
+      "latitude": 51.5245395,
+      "longitude": -0.0747031,
+      "facilities": [],
+      "prayerTimes": {
+        "fajr": "05:45",
+        "dhuhr": "12:15",
+        "asr": "14:30",
+        "maghrib": "17:45",
+        "isha": "19:15"
+      }
+    },
+    {
+      "id": "10",
+      "name": "Soho Islamic Centre",
+      "address": "",
+      "latitude": 51.5133238,
+      "longitude": -0.1345063,
+      "facilities": ["Women's section"],
+      "prayerTimes": {
+        "fajr": "05:45",
+        "dhuhr": "12:15",
+        "asr": "14:30",
+        "maghrib": "17:45",
+        "isha": "19:15"
+      }
+    },
+    {
+      "id": "334",
+      "name": "South London Islamic Centre",
+      "address": "",
+      "latitude": 51.4285484,
+      "longitude": -0.1320304,
+      "facilities": ["Parking"],
+      "prayerTimes": {
+        "fajr": "05:45",
+        "dhuhr": "12:15",
+        "asr": "14:30",
+        "maghrib": "17:45",
+        "isha": "19:15"
+      }
+    },
+    {
+      "id": "336",
+      "name": "South Norwood Islamic Community Centre (Masjid Uthman)",
+      "address": "",
+      "latitude": 51.3979358,
+      "longitude": -0.0730587,
+      "facilities": ["Women's section"],
+      "prayerTimes": {
+        "fajr": "05:45",
+        "dhuhr": "12:15",
+        "asr": "14:30",
+        "maghrib": "17:45",
+        "isha": "19:15"
+      }
+    },
+    {
+      "id": "370",
+      "name": "Southall Ahmadiyya Mosque (Darussalaam)",
+      "address": "",
+      "latitude": 51.5100589,
+      "longitude": -0.3731299,
+      "facilities": [],
+      "prayerTimes": {
+        "fajr": "05:45",
+        "dhuhr": "12:15",
+        "asr": "14:30",
+        "maghrib": "17:45",
+        "isha": "19:15"
+      }
+    },
+    {
+      "id": "365",
+      "name": "Southall Central Mosque",
+      "address": "",
+      "latitude": 51.4993879,
+      "longitude": -0.3847629,
+      "facilities": [],
+      "prayerTimes": {
+        "fajr": "05:45",
+        "dhuhr": "12:15",
+        "asr": "14:30",
+        "maghrib": "17:45",
+        "isha": "19:15"
+      }
+    },
+    {
+      "id": "367",
+      "name": "Southall Mosque",
+      "address": "",
+      "latitude": 51.5097372,
+      "longitude": -0.3857194,
+      "facilities": [],
+      "prayerTimes": {
+        "fajr": "05:45",
+        "dhuhr": "12:15",
+        "asr": "14:30",
+        "maghrib": "17:45",
+        "isha": "19:15"
+      }
+    },
+    {
+      "id": "428",
+      "name": "Stepney Shahjalal Mosque & Cultural Centre",
+      "address": "",
+      "latitude": 51.5200314,
+      "longitude": -0.0408737,
+      "facilities": [],
+      "prayerTimes": {
+        "fajr": "05:45",
+        "dhuhr": "12:15",
+        "asr": "14:30",
+        "maghrib": "17:45",
+        "isha": "19:15"
+      }
+    },
+    {
+      "id": "123",
+      "name": "Stockwell Green Mosque",
+      "address": "",
+      "latitude": 51.467438,
+      "longitude": -0.119313,
+      "facilities": [],
+      "prayerTimes": {
+        "fajr": "05:45",
+        "dhuhr": "12:15",
+        "asr": "14:30",
+        "maghrib": "17:45",
+        "isha": "19:15"
+      }
+    },
+    {
+      "id": "178",
+      "name": "Stratford Islamic Association",
+      "address": "",
+      "latitude": 51.5491906,
+      "longitude": 0.0015879,
+      "facilities": [],
+      "prayerTimes": {
+        "fajr": "05:45",
+        "dhuhr": "12:15",
+        "asr": "14:30",
+        "maghrib": "17:45",
+        "isha": "19:15"
+      }
+    },
+    {
+      "id": "325",
+      "name": "Streatham Hill Masjid",
+      "address": "",
+      "latitude": 51.4345236,
+      "longitude": -0.128585,
+      "facilities": ["Women's section"],
+      "prayerTimes": {
+        "fajr": "05:45",
+        "dhuhr": "12:15",
+        "asr": "14:30",
+        "maghrib": "17:45",
+        "isha": "19:15"
+      }
+    },
+    {
+      "id": "169",
+      "name": "Suleymaniye Mosque",
+      "address": "",
+      "latitude": 51.5351796,
+      "longitude": -0.0767136,
+      "facilities": [],
+      "prayerTimes": {
+        "fajr": "05:45",
+        "dhuhr": "12:15",
+        "asr": "14:30",
+        "maghrib": "17:45",
+        "isha": "19:15"
+      }
+    },
+    {
+      "id": "388",
+      "name": "Surrey Muslim Centre",
+      "address": "",
+      "latitude": 51.3744187,
+      "longitude": -0.479596,
+      "facilities": [],
+      "prayerTimes": {
+        "fajr": "05:45",
+        "dhuhr": "12:15",
+        "asr": "14:30",
+        "maghrib": "17:45",
+        "isha": "19:15"
+      }
+    },
+    {
+      "id": "332",
+      "name": "Sutton Central Mosque",
+      "address": "",
+      "latitude": 51.3623975,
+      "longitude": -0.1883601,
+      "facilities": ["Women's section"],
+      "prayerTimes": {
+        "fajr": "05:45",
+        "dhuhr": "12:15",
+        "asr": "14:30",
+        "maghrib": "17:45",
+        "isha": "19:15"
+      }
+    },
+    {
+      "id": "389",
+      "name": "Sutton Islamic Centre",
+      "address": "",
+      "latitude": 51.3697891,
+      "longitude": -0.1884747,
+      "facilities": [],
+      "prayerTimes": {
+        "fajr": "05:45",
+        "dhuhr": "12:15",
+        "asr": "14:30",
+        "maghrib": "17:45",
+        "isha": "19:15"
+      }
+    },
+    {
+      "id": "158",
+      "name": "Taiba Community Centre",
+      "address": "",
+      "latitude": 51.5894809,
+      "longitude": -0.1038995,
+      "facilities": [],
+      "prayerTimes": {
+        "fajr": "05:45",
+        "dhuhr": "12:15",
+        "asr": "14:30",
+        "maghrib": "17:45",
+        "isha": "19:15"
+      }
+    },
+    {
+      "id": "170",
+      "name": "Talimul Quran UK",
+      "address": "",
+      "latitude": 51.5469091,
+      "longitude": 0.0060845,
+      "facilities": [],
+      "prayerTimes": {
+        "fajr": "05:45",
+        "dhuhr": "12:15",
+        "asr": "14:30",
+        "maghrib": "17:45",
+        "isha": "19:15"
+      }
+    },
+    {
+      "id": "306",
+      "name": "Tasnim Jamia Masjid",
+      "address": "",
+      "latitude": 51.5494955,
+      "longitude": 0.1620148,
+      "facilities": [],
+      "prayerTimes": {
+        "fajr": "05:45",
+        "dhuhr": "12:15",
+        "asr": "14:30",
+        "maghrib": "17:45",
+        "isha": "19:15"
+      }
+    },
+    {
+      "id": "304",
+      "name": "Thames View Muslim Association",
+      "address": "",
+      "latitude": 51.5289812,
+      "longitude": 0.1042561,
+      "facilities": [],
+      "prayerTimes": {
+        "fajr": "05:45",
+        "dhuhr": "12:15",
+        "asr": "14:30",
+        "maghrib": "17:45",
+        "isha": "19:15"
+      }
+    },
+    {
+      "id": "215",
+      "name": "The Centre for Islamic Enlightening",
+      "address": "",
+      "latitude": 51.57162,
+      "longitude": -0.193679,
+      "facilities": [],
+      "prayerTimes": {
+        "fajr": "05:45",
+        "dhuhr": "12:15",
+        "asr": "14:30",
+        "maghrib": "17:45",
+        "isha": "19:15"
+      }
+    },
+    {
+      "id": "76",
+      "name": "The Front Line Mosque",
+      "address": "",
+      "latitude": 51.52659,
+      "longitude": -0.0680231,
+      "facilities": [],
+      "prayerTimes": {
+        "fajr": "05:45",
+        "dhuhr": "12:15",
+        "asr": "14:30",
+        "maghrib": "17:45",
+        "isha": "19:15"
+      }
+    },
+    {
+      "id": "89",
+      "name": "The Holloway Masjid",
+      "address": "",
+      "latitude": 51.5509882,
+      "longitude": -0.1097027,
+      "facilities": [],
+      "prayerTimes": {
+        "fajr": "05:45",
+        "dhuhr": "12:15",
+        "asr": "14:30",
+        "maghrib": "17:45",
+        "isha": "19:15"
+      }
+    },
+    {
+      "id": "139",
+      "name": "The Mosque & Islamic Centre of Brent",
+      "address": "",
+      "latitude": 51.5557141,
+      "longitude": -0.2165509,
+      "facilities": [],
+      "prayerTimes": {
+        "fajr": "05:45",
+        "dhuhr": "12:15",
+        "asr": "14:30",
+        "maghrib": "17:45",
+        "isha": "19:15"
+      }
+    },
+    {
+      "id": "338",
+      "name": "Thornton Heath Islamic Centre",
+      "address": "",
+      "latitude": 51.3980134,
+      "longitude": -0.0963968,
+      "facilities": [],
+      "prayerTimes": {
+        "fajr": "05:45",
+        "dhuhr": "12:15",
+        "asr": "14:30",
+        "maghrib": "17:45",
+        "isha": "19:15"
+      }
+    },
+    {
+      "id": "327",
+      "name": "Tooting Islamic Centre (Balham Mosque)",
+      "address": "",
+      "latitude": 51.432411,
+      "longitude": -0.1635153,
+      "facilities": [],
+      "prayerTimes": {
+        "fajr": "05:45",
+        "dhuhr": "12:15",
+        "asr": "14:30",
+        "maghrib": "17:45",
+        "isha": "19:15"
+      }
+    },
+    {
+      "id": "203",
+      "name": "UK Albanian Muslim Community & Cultural Centre",
+      "address": "",
+      "latitude": 51.5327952,
+      "longitude": -0.2012319,
+      "facilities": [],
+      "prayerTimes": {
+        "fajr": "05:45",
+        "dhuhr": "12:15",
+        "asr": "14:30",
+        "maghrib": "17:45",
+        "isha": "19:15"
+      }
+    },
+    {
+      "id": "166",
+      "name": "UK Turkish Islamic Cultural Centre",
+      "address": "",
+      "latitude": 51.5572975,
+      "longitude": -0.0837791,
+      "facilities": [],
+      "prayerTimes": {
+        "fajr": "05:45",
+        "dhuhr": "12:15",
+        "asr": "14:30",
+        "maghrib": "17:45",
+        "isha": "19:15"
+      }
+    },
+    {
+      "id": "188",
+      "name": "UKIM Masjid Ibrahim & Islamic Centre Plaistow",
+      "address": "",
+      "latitude": 51.5302842,
+      "longitude": 0.036185,
+      "facilities": [],
+      "prayerTimes": {
+        "fajr": "05:45",
+        "dhuhr": "12:15",
+        "asr": "14:30",
+        "maghrib": "17:45",
+        "isha": "19:15"
+      }
+    },
+    {
+      "id": "437",
+      "name": "Umm Al-Qura Centre",
+      "address": "",
+      "latitude": 51.5503324,
+      "longitude": 0.0478594,
+      "facilities": [],
+      "prayerTimes": {
+        "fajr": "05:45",
+        "dhuhr": "12:15",
+        "asr": "14:30",
+        "maghrib": "17:45",
+        "isha": "19:15"
+      }
+    },
+    {
+      "id": "91",
+      "name": "Unity Welfare Education Centre and Mosque",
+      "address": "",
+      "latitude": 51.5383961,
+      "longitude": -0.141384,
+      "facilities": [],
+      "prayerTimes": {
+        "fajr": "05:45",
+        "dhuhr": "12:15",
+        "asr": "14:30",
+        "maghrib": "17:45",
+        "isha": "19:15"
+      }
+    },
+    {
+      "id": "266",
+      "name": "Uxbridge Mosque مسجد‎",
+      "address": "",
+      "latitude": 51.5380009,
+      "longitude": -0.4838383,
+      "facilities": [],
+      "prayerTimes": {
+        "fajr": "05:45",
+        "dhuhr": "12:15",
+        "asr": "14:30",
+        "maghrib": "17:45",
+        "isha": "19:15"
+      }
+    },
+    {
+      "id": "20",
+      "name": "WBWT Community & Prayer Centre",
+      "address": "",
+      "latitude": 51.489686,
+      "longitude": -0.146185,
+      "facilities": ["Women's section", "Jummah"],
+      "prayerTimes": {
+        "fajr": "05:45",
+        "dhuhr": "12:15",
+        "asr": "14:30",
+        "maghrib": "17:45",
+        "isha": "19:15"
+      }
+    },
+    {
+      "id": "120",
+      "name": "Walworth road Masjid",
+      "address": "",
+      "latitude": 51.4902141,
+      "longitude": -0.0965119,
+      "facilities": [],
+      "prayerTimes": {
+        "fajr": "05:45",
+        "dhuhr": "12:15",
+        "asr": "14:30",
+        "maghrib": "17:45",
+        "isha": "19:15"
+      }
+    },
+    {
+      "id": "114",
+      "name": "Wapping Noorani Masjid & Cultural Centre",
+      "address": "",
+      "latitude": 51.5061005,
+      "longitude": -0.0565772,
+      "facilities": [],
+      "prayerTimes": {
+        "fajr": "05:45",
+        "dhuhr": "12:15",
+        "asr": "14:30",
+        "maghrib": "17:45",
+        "isha": "19:15"
+      }
+    },
+    {
+      "id": "246",
+      "name": "Watford Jamia Mosque",
+      "address": "",
+      "latitude": 51.6524907,
+      "longitude": -0.3951466,
+      "facilities": ["Women's section"],
+      "prayerTimes": {
+        "fajr": "05:45",
+        "dhuhr": "12:15",
+        "asr": "14:30",
+        "maghrib": "17:45",
+        "isha": "19:15"
+      }
+    },
+    {
+      "id": "87",
+      "name": "Weaversfield Muslim Prayer Hall",
+      "address": "",
+      "latitude": 51.5256116,
+      "longitude": -0.0560323,
+      "facilities": [],
+      "prayerTimes": {
+        "fajr": "05:45",
+        "dhuhr": "12:15",
+        "asr": "14:30",
+        "maghrib": "17:45",
+        "isha": "19:15"
+      }
+    },
+    {
+      "id": "253",
+      "name": "Wembley Central Mosque",
+      "address": "",
+      "latitude": 51.550292,
+      "longitude": -0.2980509,
+      "facilities": ["Women's section", "Parking"],
+      "prayerTimes": {
+        "fajr": "05:45",
+        "dhuhr": "12:15",
+        "asr": "14:30",
+        "maghrib": "17:45",
+        "isha": "19:15"
+      }
+    },
+    {
+      "id": "221",
+      "name": "West London Islamic Centre",
+      "address": "",
+      "latitude": 51.5105667,
+      "longitude": -0.3261617,
+      "facilities": ["Women's section"],
+      "prayerTimes": {
+        "fajr": "05:45",
+        "dhuhr": "12:15",
+        "asr": "14:30",
+        "maghrib": "17:45",
+        "isha": "19:15"
+      }
+    },
+    {
+      "id": "131",
+      "name": "West London Islamic Cultural Centre Mosque",
+      "address": "",
+      "latitude": 51.4767083,
+      "longitude": -0.201963,
+      "facilities": [],
+      "prayerTimes": {
+        "fajr": "05:45",
+        "dhuhr": "12:15",
+        "asr": "14:30",
+        "maghrib": "17:45",
+        "isha": "19:15"
+      }
+    },
+    {
+      "id": "328",
+      "name": "West Norwood Mosque",
+      "address": "",
+      "latitude": 51.4299789,
+      "longitude": -0.101767,
+      "facilities": [],
+      "prayerTimes": {
+        "fajr": "05:45",
+        "dhuhr": "12:15",
+        "asr": "14:30",
+        "maghrib": "17:45",
+        "isha": "19:15"
+      }
+    },
+    {
+      "id": "100",
+      "name": "Westferry Community Organisation",
+      "address": "",
+      "latitude": 51.498137,
+      "longitude": -0.02459,
+      "facilities": ["Women's section", "Wudu area"],
+      "prayerTimes": {
+        "fajr": "05:45",
+        "dhuhr": "12:15",
+        "asr": "14:30",
+        "maghrib": "17:45",
+        "isha": "19:15"
+      }
+    },
+    {
+      "id": "130",
+      "name": "White City Mosque (White City Musalla)",
+      "address": "",
+      "latitude": 51.5121757,
+      "longitude": -0.2347413,
+      "facilities": ["Women's section"],
+      "prayerTimes": {
+        "fajr": "05:45",
+        "dhuhr": "12:15",
+        "asr": "14:30",
+        "maghrib": "17:45",
+        "isha": "19:15"
+      }
+    },
+    {
+      "id": "219",
+      "name": "Wimbledon Mosque",
+      "address": "",
+      "latitude": 51.436433,
+      "longitude": -0.1972162,
+      "facilities": [],
+      "prayerTimes": {
+        "fajr": "05:45",
+        "dhuhr": "12:15",
+        "asr": "14:30",
+        "maghrib": "17:45",
+        "isha": "19:15"
+      }
+    },
+    {
+      "id": "159",
+      "name": "Wood Green Fatih Mosque",
+      "address": "",
+      "latitude": 51.5952459,
+      "longitude": -0.1105315,
+      "facilities": [],
+      "prayerTimes": {
+        "fajr": "05:45",
+        "dhuhr": "12:15",
+        "asr": "14:30",
+        "maghrib": "17:45",
+        "isha": "19:15"
+      }
+    },
+    {
+      "id": "289",
+      "name": "Woodford Muslim Cultural Centre",
+      "address": "",
+      "latitude": 51.607873,
+      "longitude": 0.038644,
+      "facilities": ["Women's section"],
+      "prayerTimes": {
+        "fajr": "05:45",
+        "dhuhr": "12:15",
+        "asr": "14:30",
+        "maghrib": "17:45",
+        "isha": "19:15"
+      }
+    },
+    {
+      "id": "90",
+      "name": "York Way Mosque مسجد‎",
+      "address": "",
+      "latitude": 51.5434868,
+      "longitude": -0.1255778,
+      "facilities": [],
+      "prayerTimes": {
+        "fajr": "05:45",
+        "dhuhr": "12:15",
+        "asr": "14:30",
+        "maghrib": "17:45",
+        "isha": "19:15"
+      }
+    },
+    {
+      "id": "183",
+      "name": "Масджид Ан-Нур",
+      "address": "",
+      "latitude": 51.5638581,
+      "longitude": -0.012886,
+      "facilities": [],
+      "prayerTimes": {
+        "fajr": "05:45",
+        "dhuhr": "12:15",
+        "asr": "14:30",
+        "maghrib": "17:45",
+        "isha": "19:15"
+      }
     }
   ]
 }

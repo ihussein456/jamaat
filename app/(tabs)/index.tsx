@@ -1,26 +1,29 @@
 import * as Location from "expo-location";
-import React, { useEffect, useState } from "react";
+import React, { useEffect, useMemo, useState } from "react";
 import {
   ActivityIndicator,
   Dimensions,
+  Platform,
   ScrollView,
   StyleSheet,
   Text,
   TouchableOpacity,
   View,
+  useColorScheme,
 } from "react-native";
 import {
   Gesture,
   GestureDetector,
   GestureHandlerRootView,
 } from "react-native-gesture-handler";
-import MapView, { Marker } from "react-native-maps";
+import MapView, { Marker, PROVIDER_DEFAULT } from "react-native-maps";
 import Animated, {
+  Easing,
   interpolate,
   runOnJS,
   useAnimatedStyle,
   useSharedValue,
-  withSpring,
+  withTiming,
 } from "react-native-reanimated";
 import { useSafeAreaInsets } from "react-native-safe-area-context";
 
@@ -28,12 +31,13 @@ import mosqueData from "../../data/mosques.json";
 
 const { height: SCREEN_HEIGHT, width: SCREEN_WIDTH } = Dimensions.get("window");
 
-// Bottom sheet snap points (from bottom of screen)
 const SHEET_HEIGHT = SCREEN_HEIGHT * 0.95;
+// Collapsed shows just search bar (~85px: 12px handle padding + 5px handle + 12px padding + 14+14 search bar + padding)
+const COLLAPSED_HEIGHT = 85;
 const SNAP_POINTS = {
-  MIN: SCREEN_HEIGHT * 0.55, // Collapsed - 45% visible
-  MID: SCREEN_HEIGHT * 0.35, // Mid - 65% visible
-  MAX: SCREEN_HEIGHT * 0.08, // Expanded - 92% visible
+  MIN: SCREEN_HEIGHT - COLLAPSED_HEIGHT, // Collapsed - just search bar visible
+  MID: SCREEN_HEIGHT * 0.45,              // Mid - shows featured card + categories
+  MAX: SCREEN_HEIGHT * 0.08,              // Expanded - full list
 };
 
 type Mosque = {
@@ -49,11 +53,10 @@ type Mosque = {
     maghrib: string;
     isha: string;
   };
-  capacity: number;
+  capacity?: number;
   facilities: string[];
 };
 
-// Quick action categories
 const CATEGORIES = [
   { id: "mosque", icon: "🕌", label: "Mosque" },
   { id: "prayer", icon: "🤲", label: "Prayer" },
@@ -63,19 +66,94 @@ const CATEGORIES = [
   { id: "more", icon: "⋯", label: "More" },
 ];
 
+// Theme colors
+const themes = {
+  dark: {
+    background: "#000",
+    sheetBackground: "#1C1C1E",
+    cardBackground: "#2C2C2E",
+    text: "#fff",
+    textSecondary: "#8E8E93",
+    accent: "#C9A227",
+    border: "#2C2C2E",
+    mapStyle: "dark" as const,
+  },
+  light: {
+    background: "#F2F2F7",
+    sheetBackground: "#FFFFFF",
+    cardBackground: "#F2F2F7",
+    text: "#000",
+    textSecondary: "#6B6B6B",
+    accent: "#C9A227",
+    border: "#E5E5EA",
+    mapStyle: "light" as const,
+  },
+};
+
+// Calculate distance between two coordinates (Haversine formula, in km)
+const calculateDistance = (
+  lat1: number,
+  lon1: number,
+  lat2: number,
+  lon2: number
+): number => {
+  const R = 6371; // Earth's radius in km
+  const dLat = ((lat2 - lat1) * Math.PI) / 180;
+  const dLon = ((lon2 - lon1) * Math.PI) / 180;
+  const a =
+    Math.sin(dLat / 2) * Math.sin(dLat / 2) +
+    Math.cos((lat1 * Math.PI) / 180) *
+      Math.cos((lat2 * Math.PI) / 180) *
+      Math.sin(dLon / 2) *
+      Math.sin(dLon / 2);
+  const c = 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1 - a));
+  return R * c;
+};
+
+// Dark map style for Google Maps (Android)
+const darkMapStyle = [
+  { elementType: "geometry", stylers: [{ color: "#1d1d1d" }] },
+  { elementType: "labels.icon", stylers: [{ visibility: "off" }] },
+  { elementType: "labels.text.fill", stylers: [{ color: "#757575" }] },
+  { elementType: "labels.text.stroke", stylers: [{ color: "#212121" }] },
+  { featureType: "administrative", elementType: "geometry", stylers: [{ color: "#757575" }] },
+  { featureType: "administrative.country", elementType: "labels.text.fill", stylers: [{ color: "#9e9e9e" }] },
+  { featureType: "administrative.locality", elementType: "labels.text.fill", stylers: [{ color: "#bdbdbd" }] },
+  { featureType: "poi", elementType: "labels.text.fill", stylers: [{ color: "#757575" }] },
+  { featureType: "poi.park", elementType: "geometry", stylers: [{ color: "#181818" }] },
+  { featureType: "road", elementType: "geometry.fill", stylers: [{ color: "#2c2c2c" }] },
+  { featureType: "road", elementType: "labels.text.fill", stylers: [{ color: "#8a8a8a" }] },
+  { featureType: "road.arterial", elementType: "geometry", stylers: [{ color: "#373737" }] },
+  { featureType: "road.highway", elementType: "geometry", stylers: [{ color: "#3c3c3c" }] },
+  { featureType: "road.local", elementType: "labels.text.fill", stylers: [{ color: "#616161" }] },
+  { featureType: "transit", elementType: "labels.text.fill", stylers: [{ color: "#757575" }] },
+  { featureType: "water", elementType: "geometry", stylers: [{ color: "#000000" }] },
+  { featureType: "water", elementType: "labels.text.fill", stylers: [{ color: "#3d3d3d" }] },
+];
+
 export default function Index() {
+  const systemColorScheme = useColorScheme();
   const insets = useSafeAreaInsets();
-  const [location, setLocation] = useState<Location.LocationObject | null>(
-    null,
-  );
+  
+  const [isDarkMode, setIsDarkMode] = useState(true); // Default to dark
+  const [location, setLocation] = useState<Location.LocationObject | null>(null);
   const [loading, setLoading] = useState(true);
   const [errorMsg, setErrorMsg] = useState<string | null>(null);
   const [selectedMosque, setSelectedMosque] = useState<Mosque | null>(null);
   const [mosques, setMosques] = useState<Mosque[]>([]);
   const [isExpanded, setIsExpanded] = useState(false);
+  const [mapKey, setMapKey] = useState(0); // Force map re-render on theme change
+
+  const theme = isDarkMode ? themes.dark : themes.light;
 
   const translateY = useSharedValue(SNAP_POINTS.MIN);
   const context = useSharedValue<{ y: number }>({ y: 0 });
+
+  const toggleTheme = () => {
+    setIsDarkMode(!isDarkMode);
+    // Force map to re-render with new theme
+    setMapKey(prev => prev + 1);
+  };
 
   useEffect(() => {
     (async () => {
@@ -95,13 +173,13 @@ export default function Index() {
             currentLocation.coords.latitude,
             currentLocation.coords.longitude,
             a.latitude,
-            a.longitude,
+            a.longitude
           );
           const distB = calculateDistance(
             currentLocation.coords.latitude,
             currentLocation.coords.longitude,
             b.latitude,
-            b.longitude,
+            b.longitude
           );
           return distA - distB;
         });
@@ -113,25 +191,6 @@ export default function Index() {
     })();
   }, []);
 
-  const calculateDistance = (
-    lat1: number,
-    lon1: number,
-    lat2: number,
-    lon2: number,
-  ): number => {
-    const R = 6371;
-    const dLat = ((lat2 - lat1) * Math.PI) / 180;
-    const dLon = ((lon2 - lon1) * Math.PI) / 180;
-    const a =
-      Math.sin(dLat / 2) * Math.sin(dLat / 2) +
-      Math.cos((lat1 * Math.PI) / 180) *
-        Math.cos((lat2 * Math.PI) / 180) *
-        Math.sin(dLon / 2) *
-        Math.sin(dLon / 2);
-    const c = 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1 - a));
-    return R * c;
-  };
-
   const updateExpandedState = (expanded: boolean) => {
     setIsExpanded(expanded);
   };
@@ -142,42 +201,54 @@ export default function Index() {
     })
     .onUpdate((event) => {
       const newValue = context.value.y + event.translationY;
-      translateY.value = Math.max(
-        SNAP_POINTS.MAX,
-        Math.min(newValue, SNAP_POINTS.MIN),
-      );
+      translateY.value = Math.max(SNAP_POINTS.MAX, Math.min(newValue, SNAP_POINTS.MIN));
     })
     .onEnd((event) => {
       const velocity = event.velocityY;
       const currentY = translateY.value;
+      
+      // Snap points in order from top (expanded) to bottom (collapsed)
+      const snapPoints = [SNAP_POINTS.MAX, SNAP_POINTS.MID, SNAP_POINTS.MIN];
+      
+      let targetSnap = SNAP_POINTS.MID;
 
-      let targetSnap = SNAP_POINTS.MIN;
+      // Find current closest snap point
+      let currentSnapIndex = 0;
+      let minDist = Math.abs(currentY - snapPoints[0]);
+      for (let i = 1; i < snapPoints.length; i++) {
+        const dist = Math.abs(currentY - snapPoints[i]);
+        if (dist < minDist) {
+          minDist = dist;
+          currentSnapIndex = i;
+        }
+      }
 
-      if (velocity < -500) {
-        // Fast swipe up
-        targetSnap = SNAP_POINTS.MAX;
-      } else if (velocity > 500) {
-        // Fast swipe down
-        targetSnap = SNAP_POINTS.MIN;
-      } else {
-        // Snap to nearest
+      // Fast swipe up (negative velocity) - go to next higher snap (lower index)
+      if (velocity < -800) {
+        targetSnap = snapPoints[Math.max(0, currentSnapIndex - 1)];
+      }
+      // Fast swipe down (positive velocity) - go to next lower snap (higher index)
+      else if (velocity > 800) {
+        targetSnap = snapPoints[Math.min(snapPoints.length - 1, currentSnapIndex + 1)];
+      }
+      // Slow drag - snap to nearest
+      else {
         const distToMin = Math.abs(currentY - SNAP_POINTS.MIN);
         const distToMid = Math.abs(currentY - SNAP_POINTS.MID);
         const distToMax = Math.abs(currentY - SNAP_POINTS.MAX);
 
         if (distToMax < distToMid && distToMax < distToMin) {
           targetSnap = SNAP_POINTS.MAX;
-        } else if (distToMid < distToMin) {
+        } else if (distToMid < distToMin && distToMid < distToMax) {
           targetSnap = SNAP_POINTS.MID;
         } else {
           targetSnap = SNAP_POINTS.MIN;
         }
       }
 
-      translateY.value = withSpring(targetSnap, {
-        damping: 25,
-        stiffness: 120,
-        velocity: velocity,
+      translateY.value = withTiming(targetSnap, {
+        duration: 250,
+        easing: Easing.out(Easing.cubic),
       });
 
       runOnJS(updateExpandedState)(targetSnap === SNAP_POINTS.MAX);
@@ -191,36 +262,131 @@ export default function Index() {
     const opacity = interpolate(
       translateY.value,
       [SNAP_POINTS.MIN, SNAP_POINTS.MID, SNAP_POINTS.MAX],
-      [0, 0.5, 1],
+      [0, 0.5, 1]
     );
     return { opacity };
   });
 
+  // Dynamic styles based on theme
+  const dynamicStyles = useMemo(() => StyleSheet.create({
+    container: {
+      flex: 1,
+      backgroundColor: theme.background,
+    },
+    loadingContainer: {
+      flex: 1,
+      justifyContent: "center",
+      alignItems: "center",
+      backgroundColor: theme.background,
+    },
+    loadingText: {
+      marginTop: 16,
+      color: theme.text,
+      fontSize: 16,
+    },
+    bottomSheet: {
+      position: "absolute",
+      left: 0,
+      right: 0,
+      top: 0,
+      height: SHEET_HEIGHT,
+      backgroundColor: theme.sheetBackground,
+      borderTopLeftRadius: 20,
+      borderTopRightRadius: 20,
+      shadowColor: "#000",
+      shadowOffset: { width: 0, height: -2 },
+      shadowOpacity: 0.1,
+      shadowRadius: 10,
+      elevation: 5,
+    },
+    searchBar: {
+      flexDirection: "row",
+      alignItems: "center",
+      backgroundColor: theme.cardBackground,
+      marginHorizontal: 16,
+      borderRadius: 8,
+      paddingVertical: 14,
+      paddingHorizontal: 16,
+    },
+    searchText: {
+      color: theme.text,
+      fontSize: 17,
+      fontWeight: "400",
+    },
+    categoryIcon: {
+      width: 52,
+      height: 52,
+      borderRadius: 26,
+      backgroundColor: theme.cardBackground,
+      justifyContent: "center",
+      alignItems: "center",
+      marginBottom: 8,
+    },
+    categoryLabel: {
+      color: theme.text,
+      fontSize: 11,
+      fontWeight: "500",
+    },
+    mosqueItem: {
+      flexDirection: "row",
+      alignItems: "center",
+      paddingVertical: 14,
+      borderBottomWidth: StyleSheet.hairlineWidth,
+      borderBottomColor: theme.border,
+    },
+    mosqueIconContainer: {
+      width: 40,
+      height: 40,
+      borderRadius: 20,
+      backgroundColor: theme.cardBackground,
+      justifyContent: "center",
+      alignItems: "center",
+      marginRight: 12,
+    },
+    mosqueName: {
+      color: theme.text,
+      fontSize: 16,
+      fontWeight: "500",
+      marginBottom: 2,
+    },
+    mosqueAddress: {
+      color: theme.textSecondary,
+      fontSize: 13,
+    },
+    mosqueDistance: {
+      color: theme.textSecondary,
+      fontSize: 14,
+      fontWeight: "500",
+    },
+  }), [theme]);
+
   if (loading) {
     return (
-      <View style={styles.loadingContainer}>
-        <ActivityIndicator size="large" color="#C9A227" />
-        <Text style={styles.loadingText}>Finding nearby mosques...</Text>
+      <View style={dynamicStyles.loadingContainer}>
+        <ActivityIndicator size="large" color={theme.accent} />
+        <Text style={dynamicStyles.loadingText}>Finding nearby mosques...</Text>
       </View>
     );
   }
 
   if (errorMsg) {
     return (
-      <View style={styles.loadingContainer}>
-        <Text style={styles.errorText}>{errorMsg}</Text>
+      <View style={dynamicStyles.loadingContainer}>
+        <Text style={[styles.errorText, { color: "#ff4444" }]}>{errorMsg}</Text>
       </View>
     );
   }
 
   return (
-    <GestureHandlerRootView style={styles.container}>
-      <View style={styles.container}>
+    <GestureHandlerRootView style={dynamicStyles.container}>
+      <View style={dynamicStyles.container}>
         {/* Map */}
         <MapView
+          key={mapKey}
           style={styles.map}
-          customMapStyle={darkMapStyle}
-          userInterfaceStyle="dark"
+          provider={PROVIDER_DEFAULT}
+          customMapStyle={isDarkMode ? darkMapStyle : []}
+          userInterfaceStyle={isDarkMode ? "dark" : "light"}
           initialRegion={{
             latitude: location?.coords.latitude || 51.5074,
             longitude: location?.coords.longitude || -0.1278,
@@ -239,7 +405,7 @@ export default function Index() {
               }}
               title={mosque.name}
               description={mosque.address}
-              pinColor={mosque.id === selectedMosque?.id ? "#C9A227" : "#666"}
+              pinColor={mosque.id === selectedMosque?.id ? theme.accent : "#666"}
               onPress={() => setSelectedMosque(mosque)}
             />
           ))}
@@ -247,23 +413,36 @@ export default function Index() {
 
         {/* Map overlay buttons */}
         <View style={[styles.mapOverlay, { top: insets.top + 10 }]}>
-          <TouchableOpacity style={styles.mapButton}>
-            <Text style={styles.mapButtonIcon}>☰</Text>
+          {/* Menu button */}
+          <TouchableOpacity 
+            style={[styles.mapButton, { backgroundColor: theme.sheetBackground }]}
+          >
+            <Text style={[styles.mapButtonIcon, { color: theme.text }]}>☰</Text>
+          </TouchableOpacity>
+          
+          {/* Theme toggle button */}
+          <TouchableOpacity 
+            style={[styles.mapButton, { backgroundColor: theme.sheetBackground, marginTop: 10 }]}
+            onPress={toggleTheme}
+          >
+            <Text style={[styles.mapButtonIcon, { color: theme.text }]}>
+              {isDarkMode ? "☀️" : "🌙"}
+            </Text>
           </TouchableOpacity>
         </View>
 
         {/* Bottom Sheet */}
         <GestureDetector gesture={panGesture}>
-          <Animated.View style={[styles.bottomSheet, bottomSheetStyle]}>
+          <Animated.View style={[dynamicStyles.bottomSheet, bottomSheetStyle]}>
             {/* Handle */}
             <View style={styles.handleContainer}>
-              <View style={styles.handle} />
+              <View style={[styles.handle, { backgroundColor: isDarkMode ? "#5C5C5E" : "#D1D1D6" }]} />
             </View>
 
             {/* Search Bar */}
-            <TouchableOpacity style={styles.searchBar} activeOpacity={0.8}>
+            <TouchableOpacity style={dynamicStyles.searchBar} activeOpacity={0.8}>
               <Text style={styles.searchIcon}>🔍</Text>
-              <Text style={styles.searchText}>Salaam, where to pray?</Text>
+              <Text style={dynamicStyles.searchText}>Salaam, where to pray?</Text>
             </TouchableOpacity>
 
             {/* Featured Card */}
@@ -278,7 +457,7 @@ export default function Index() {
                       location?.coords.latitude || 0,
                       location?.coords.longitude || 0,
                       selectedMosque.latitude,
-                      selectedMosque.longitude,
+                      selectedMosque.longitude
                     ).toFixed(1)}{" "}
                     km away
                   </Text>
@@ -293,10 +472,10 @@ export default function Index() {
             <View style={styles.categoriesContainer}>
               {CATEGORIES.map((cat) => (
                 <TouchableOpacity key={cat.id} style={styles.categoryItem}>
-                  <View style={styles.categoryIcon}>
+                  <View style={dynamicStyles.categoryIcon}>
                     <Text style={styles.categoryEmoji}>{cat.icon}</Text>
                   </View>
-                  <Text style={styles.categoryLabel}>{cat.label}</Text>
+                  <Text style={dynamicStyles.categoryLabel}>{cat.label}</Text>
                 </TouchableOpacity>
               ))}
             </View>
@@ -311,24 +490,24 @@ export default function Index() {
                 {mosques.map((mosque) => (
                   <TouchableOpacity
                     key={mosque.id}
-                    style={styles.mosqueItem}
+                    style={dynamicStyles.mosqueItem}
                     onPress={() => setSelectedMosque(mosque)}
                     activeOpacity={0.7}
                   >
-                    <View style={styles.mosqueIcon}>
+                    <View style={dynamicStyles.mosqueIconContainer}>
                       <Text style={styles.mosqueEmoji}>📍</Text>
                     </View>
                     <View style={styles.mosqueInfo}>
-                      <Text style={styles.mosqueName}>{mosque.name}</Text>
-                      <Text style={styles.mosqueAddress}>{mosque.address}</Text>
+                      <Text style={dynamicStyles.mosqueName}>{mosque.name}</Text>
+                      <Text style={dynamicStyles.mosqueAddress}>{mosque.address}</Text>
                     </View>
-                    <Text style={styles.mosqueDistance}>
+                    <Text style={dynamicStyles.mosqueDistance}>
                       {location
                         ? `${calculateDistance(
                             location.coords.latitude,
                             location.coords.longitude,
                             mosque.latitude,
-                            mosque.longitude,
+                            mosque.longitude
                           ).toFixed(1)} km`
                         : ""}
                     </Text>
@@ -343,99 +522,11 @@ export default function Index() {
   );
 }
 
-const darkMapStyle = [
-  { elementType: "geometry", stylers: [{ color: "#1d1d1d" }] },
-  { elementType: "labels.icon", stylers: [{ visibility: "off" }] },
-  { elementType: "labels.text.fill", stylers: [{ color: "#757575" }] },
-  { elementType: "labels.text.stroke", stylers: [{ color: "#212121" }] },
-  {
-    featureType: "administrative",
-    elementType: "geometry",
-    stylers: [{ color: "#757575" }],
-  },
-  {
-    featureType: "administrative.country",
-    elementType: "labels.text.fill",
-    stylers: [{ color: "#9e9e9e" }],
-  },
-  {
-    featureType: "administrative.locality",
-    elementType: "labels.text.fill",
-    stylers: [{ color: "#bdbdbd" }],
-  },
-  {
-    featureType: "poi",
-    elementType: "labels.text.fill",
-    stylers: [{ color: "#757575" }],
-  },
-  {
-    featureType: "poi.park",
-    elementType: "geometry",
-    stylers: [{ color: "#181818" }],
-  },
-  {
-    featureType: "road",
-    elementType: "geometry.fill",
-    stylers: [{ color: "#2c2c2c" }],
-  },
-  {
-    featureType: "road",
-    elementType: "labels.text.fill",
-    stylers: [{ color: "#8a8a8a" }],
-  },
-  {
-    featureType: "road.arterial",
-    elementType: "geometry",
-    stylers: [{ color: "#373737" }],
-  },
-  {
-    featureType: "road.highway",
-    elementType: "geometry",
-    stylers: [{ color: "#3c3c3c" }],
-  },
-  {
-    featureType: "road.local",
-    elementType: "labels.text.fill",
-    stylers: [{ color: "#616161" }],
-  },
-  {
-    featureType: "transit",
-    elementType: "labels.text.fill",
-    stylers: [{ color: "#757575" }],
-  },
-  {
-    featureType: "water",
-    elementType: "geometry",
-    stylers: [{ color: "#000000" }],
-  },
-  {
-    featureType: "water",
-    elementType: "labels.text.fill",
-    stylers: [{ color: "#3d3d3d" }],
-  },
-];
-
 const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: "#000",
-  },
   map: {
     ...StyleSheet.absoluteFillObject,
   },
-  loadingContainer: {
-    flex: 1,
-    justifyContent: "center",
-    alignItems: "center",
-    backgroundColor: "#000",
-  },
-  loadingText: {
-    marginTop: 16,
-    color: "#fff",
-    fontSize: 16,
-  },
   errorText: {
-    color: "#ff4444",
     fontSize: 16,
     textAlign: "center",
     padding: 20,
@@ -449,23 +540,16 @@ const styles = StyleSheet.create({
     width: 44,
     height: 44,
     borderRadius: 22,
-    backgroundColor: "rgba(28, 28, 30, 0.9)",
     justifyContent: "center",
     alignItems: "center",
+    shadowColor: "#000",
+    shadowOffset: { width: 0, height: 2 },
+    shadowOpacity: 0.2,
+    shadowRadius: 4,
+    elevation: 3,
   },
   mapButtonIcon: {
-    color: "#fff",
     fontSize: 18,
-  },
-  bottomSheet: {
-    position: "absolute",
-    left: 0,
-    right: 0,
-    top: 0,
-    height: SHEET_HEIGHT,
-    backgroundColor: "#1C1C1E",
-    borderTopLeftRadius: 20,
-    borderTopRightRadius: 20,
   },
   handleContainer: {
     paddingVertical: 12,
@@ -475,25 +559,10 @@ const styles = StyleSheet.create({
     width: 36,
     height: 5,
     borderRadius: 3,
-    backgroundColor: "#5C5C5E",
-  },
-  searchBar: {
-    flexDirection: "row",
-    alignItems: "center",
-    backgroundColor: "#2C2C2E",
-    marginHorizontal: 16,
-    borderRadius: 8,
-    paddingVertical: 14,
-    paddingHorizontal: 16,
   },
   searchIcon: {
     fontSize: 16,
     marginRight: 12,
-  },
-  searchText: {
-    color: "#fff",
-    fontSize: 17,
-    fontWeight: "400",
   },
   featuredCard: {
     flexDirection: "row",
@@ -534,22 +603,8 @@ const styles = StyleSheet.create({
     alignItems: "center",
     width: (SCREEN_WIDTH - 32) / 6,
   },
-  categoryIcon: {
-    width: 52,
-    height: 52,
-    borderRadius: 26,
-    backgroundColor: "#2C2C2E",
-    justifyContent: "center",
-    alignItems: "center",
-    marginBottom: 8,
-  },
   categoryEmoji: {
     fontSize: 24,
-  },
-  categoryLabel: {
-    color: "#fff",
-    fontSize: 11,
-    fontWeight: "500",
   },
   listContainer: {
     flex: 1,
@@ -558,41 +613,10 @@ const styles = StyleSheet.create({
   mosquesList: {
     flex: 1,
   },
-  mosqueItem: {
-    flexDirection: "row",
-    alignItems: "center",
-    paddingVertical: 14,
-    borderBottomWidth: StyleSheet.hairlineWidth,
-    borderBottomColor: "#2C2C2E",
-  },
-  mosqueIcon: {
-    width: 40,
-    height: 40,
-    borderRadius: 20,
-    backgroundColor: "#2C2C2E",
-    justifyContent: "center",
-    alignItems: "center",
-    marginRight: 12,
-  },
   mosqueEmoji: {
     fontSize: 18,
   },
   mosqueInfo: {
     flex: 1,
-  },
-  mosqueName: {
-    color: "#fff",
-    fontSize: 16,
-    fontWeight: "500",
-    marginBottom: 2,
-  },
-  mosqueAddress: {
-    color: "#8E8E93",
-    fontSize: 13,
-  },
-  mosqueDistance: {
-    color: "#8E8E93",
-    fontSize: 14,
-    fontWeight: "500",
   },
 });
